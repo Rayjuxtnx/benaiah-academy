@@ -51,10 +51,10 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold">Email Us</h3>
-                      <a href="mailto:benaiahkindergarten@gmail.com" className="block text-muted-foreground hover:text-primary">
+                      <a href="mailto:benaiahkindergarten@gmail.com" className="block text-primary hover:text-primary/80">
                         benaiahkindergarten@gmail.com
                       </a>
-                       <a href="mailto:admissions@benaiah.ac.ke" className="block text-muted-foreground hover:text-primary">
+                       <a href="mailto:admissions@benaiah.ac.ke" className="block text-primary hover:text-primary/80">
                         admissions@benaiah.ac.ke
                       </a>
                       <p className="text-sm text-muted-foreground">We reply within 24 hours</p>
@@ -66,7 +66,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold">Call Us</h3>
-                      <a href="tel:0110003397" className="text-muted-foreground hover:text-primary">
+                      <a href="tel:0110003397" className="text-primary hover:text-primary/80">
                         0110 003397
                       </a>
                        <p className="text-sm text-muted-foreground">Office Hours: 7:30 AM - 5:00pm</p>

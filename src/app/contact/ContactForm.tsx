@@ -1,3 +1,4 @@
+
 "use client";
 
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -18,10 +19,10 @@ import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 
 const formSchema = z.object({
-  name: z.string().min(2, 'Name must be at least 2 characters.'),
-  email: z.string().email('Please enter a valid email address.'),
-  subject: z.string().min(5, 'Subject must be at least 5 characters.'),
-  message: z.string().min(10, 'Message must be at least 10 characters.'),
+  name: z.string().min(1, 'Name is required.'),
+  email: z.string().email('Please enter a valid email address.').min(1, 'Email is required.'),
+  subject: z.string().min(1, 'Subject is required.'),
+  message: z.string().min(1, 'Message is required.'),
 });
 
 type FormData = z.infer<typeof formSchema>;

@@ -135,7 +135,7 @@ export default function ProgramsPage() {
         </div>
       </section>
 
-       <section className="relative text-accent-foreground">
+       <section className="relative text-white">
          {quoteImage && (
           <Image
             src={quoteImage.imageUrl}
@@ -159,5 +159,3 @@ export default function ProgramsPage() {
     </>
   );
 }
-
-    

@@ -38,6 +38,7 @@ const testimonials = [
 ];
 
 export default function AboutPage() {
+  const pageHeaderImage = PlaceHolderImages.find((img) => img.id === 'journey-graduation-performance');
   const missionImage = PlaceHolderImages.find(
     (img) => img.id === 'about-mission'
   );
@@ -63,13 +64,25 @@ export default function AboutPage() {
   const vanImg = PlaceHolderImages.find(
     (img) => img.id === 'program-preschool'
   ); // placeholder for van
+  const quoteImage = PlaceHolderImages.find((img) => img.id === 'program-toddler');
+
 
   return (
     <div>
-      <section className="bg-card text-center">
-        <div className="container px-4 md:px-6">
+       <section className="bg-card text-center relative">
+        {pageHeaderImage && (
+          <Image
+            src={pageHeaderImage.imageUrl}
+            alt={pageHeaderImage.description}
+            fill
+            className="object-cover blur-sm"
+            data-ai-hint={pageHeaderImage.imageHint}
+          />
+        )}
+        <div className="absolute inset-0 bg-primary/80" />
+        <div className="container px-4 md:px-6 relative">
           <div className="mx-auto max-w-3xl space-y-2">
-            <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+            <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-primary-foreground">
               About Benaiah Academy
             </h1>
           </div>
@@ -266,8 +279,18 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-accent text-accent-foreground">
-        <div className="container px-4 md:px-6">
+      <section className="relative text-accent-foreground">
+        {quoteImage && (
+          <Image
+            src={quoteImage.imageUrl}
+            alt={quoteImage.description}
+            fill
+            className="object-cover blur-sm"
+            data-ai-hint={quoteImage.imageHint}
+          />
+        )}
+        <div className="absolute inset-0 bg-primary/80" />
+        <div className="container px-4 md:px-6 relative">
           <div className="mx-auto max-w-3xl text-center space-y-4">
             <Quote className="mx-auto h-12 w-12" />
             <blockquote className="text-xl italic">

@@ -92,6 +92,10 @@ const testimonials = [
 
 export default function Home() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'home-hero');
+  const welcomeImage = PlaceHolderImages.find((img) => img.id === 'journey-3');
+  const nurturingImage = PlaceHolderImages.find((img) => img.id === 'about-mission');
+  const ctaImage = PlaceHolderImages.find((img) => img.id === 'journey-4');
+
 
   return (
     <div className="flex flex-col">
@@ -137,8 +141,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="welcome" className="bg-background">
-        <div className="container px-4 md:px-6">
+       <section id="welcome" className="bg-background relative">
+        {welcomeImage && (
+          <Image
+            src={welcomeImage.imageUrl}
+            alt={welcomeImage.description}
+            fill
+            className="object-cover blur-sm"
+            data-ai-hint={welcomeImage.imageHint}
+          />
+        )}
+        <div className="absolute inset-0 bg-background/60" />
+        <div className="container px-4 md:px-6 relative">
           <div className="mx-auto max-w-3xl text-center space-y-4">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
               Welcome to Our School
@@ -152,8 +166,18 @@ export default function Home() {
 
       <AnimatedMissionVision />
 
-      <section id="nurturing" className="bg-background">
-        <div className="container px-4 md:px-6">
+      <section id="nurturing" className="bg-background relative">
+         {nurturingImage && (
+          <Image
+            src={nurturingImage.imageUrl}
+            alt={nurturingImage.description}
+            fill
+            className="object-cover blur-sm"
+            data-ai-hint={nurturingImage.imageHint}
+          />
+        )}
+        <div className="absolute inset-0 bg-background/60" />
+        <div className="container px-4 md:px-6 relative">
           <div className="mx-auto max-w-3xl text-center space-y-4">
             <Heart className="mx-auto h-12 w-12 text-primary"/>
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
@@ -166,8 +190,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="cta" className="bg-accent text-accent-foreground">
-        <div className="container px-4 md:px-6">
+       <section id="cta" className="relative text-accent-foreground">
+        {ctaImage && (
+          <Image
+            src={ctaImage.imageUrl}
+            alt={ctaImage.description}
+            fill
+            className="object-cover blur-sm"
+            data-ai-hint={ctaImage.imageHint}
+          />
+        )}
+        <div className="absolute inset-0 bg-primary/80" />
+        <div className="container px-4 md:px-6 relative">
           <div className="mx-auto max-w-3xl text-center space-y-4">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
               Join the Benaiah Academy Family

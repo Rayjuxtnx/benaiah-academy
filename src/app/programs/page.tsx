@@ -62,15 +62,27 @@ const funActivities = [
 ]
 
 export default function ProgramsPage() {
+  const pageHeaderImage = PlaceHolderImages.find((img) => img.id === 'journey-club-sports');
+  const quoteImage = PlaceHolderImages.find((img) => img.id === 'journey-graduation-family');
   return (
     <>
-      <section className="bg-card text-center">
-        <div className="container px-4 md:px-6">
+      <section className="bg-card text-center relative">
+        {pageHeaderImage && (
+          <Image
+            src={pageHeaderImage.imageUrl}
+            alt={pageHeaderImage.description}
+            fill
+            className="object-cover blur-sm"
+            data-ai-hint={pageHeaderImage.imageHint}
+          />
+        )}
+        <div className="absolute inset-0 bg-primary/80" />
+        <div className="container px-4 md:px-6 relative">
           <div className="mx-auto max-w-3xl space-y-2">
-            <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+            <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-primary-foreground">
               Our Programs
             </h1>
-            <p className="text-muted-foreground md:text-xl/relaxed">
+            <p className="text-primary-foreground/90 md:text-xl/relaxed">
              Our Fun Programs are thoughtfully designed to spark imagination, nurture social development, and promote active learning through engaging, age-appropriate activities—ensuring every kindergarten child experiences joy, discovery, and growth in a safe and stimulating environment.
             </p>
           </div>
@@ -121,8 +133,18 @@ export default function ProgramsPage() {
         </div>
       </section>
 
-       <section className="bg-accent text-accent-foreground">
-        <div className="container px-4 md:px-6">
+       <section className="relative text-accent-foreground">
+         {quoteImage && (
+          <Image
+            src={quoteImage.imageUrl}
+            alt={quoteImage.description}
+            fill
+            className="object-cover blur-sm"
+            data-ai-hint={quoteImage.imageHint}
+          />
+        )}
+        <div className="absolute inset-0 bg-primary/80" />
+        <div className="container px-4 md:px-6 relative">
           <div className="mx-auto max-w-3xl text-center space-y-4">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">Let Them Breathe the World</h2>
             <p className="text-lg">

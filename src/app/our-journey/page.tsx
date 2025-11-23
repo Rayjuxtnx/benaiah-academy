@@ -23,112 +23,114 @@ import {
 } from 'lucide-react';
 import Autoplay from 'embla-carousel-autoplay';
 
-const clubs = [
-  {
-    title: 'Art Club',
-    description:
-      'Our young artists explore colors, shapes, and creativity through fun projects that develop fine motor skills.',
-    icon: <Paintbrush className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'journey-club-art'),
-  },
-  {
-    title: 'Music Club',
-    description:
-      'Children discover rhythm, melody, and the joy of making music with simple instruments and movement.',
-    icon: <Music className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'journey-club-music'),
-  },
-  {
-    title: 'Science Club',
-    description:
-      'Fun experiments and nature exploration spark curiosity about the world around us.',
-    icon: <Beaker className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'journey-club-science'),
-  },
-  {
-    title: 'Sports Club',
-    description:
-      'Basic sports skills, teamwork, and healthy competition in a fun, supportive environment.',
-    icon: <Trophy className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'journey-club-sports'),
-  },
-];
-
-const academics = [
-  {
-    title: 'Language Development',
-    description:
-      'Phonics, vocabulary, and storytelling build strong communication foundations.',
-    icon: <BookOpen className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find(
-      (img) => img.id === 'journey-academic-language'
-    ),
-  },
-  {
-    title: 'Math Readiness',
-    description: 'Counting, sorting, and pattern recognition through engaging activities.',
-    icon: <Calculator className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find(
-      (img) => img.id === 'journey-academic-math'
-    ),
-  },
-  {
-    title: 'Writing Practice',
-    description: 'Developing fine motor skills for writing.',
-    icon: <Pen className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find(
-      (img) => img.id === 'journey-academic-writing'
-    ),
-  },
-  {
-    title: 'Learning Through Play',
-    description: 'Structured play builds social and cognitive skills.',
-    icon: <Users className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find(
-      (img) => img.id === 'journey-academic-social'
-    ),
-  },
-];
-
-const graduations = [
-  {
-    title: 'Graduation Day',
-    description: 'A special ceremony marking the completion of kindergarten.',
-    icon: <GraduationCap className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'journey-graduation-day'),
-  },
-  {
-    title: 'Cap Decorating',
-    description:
-      'Students personalize their graduation caps as a creative keepsake.',
-    icon: <Paintbrush className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find(
-      (img) => img.id === 'journey-graduation-caps'
-    ),
-  },
-  {
-    title: 'Class Performance',
-    description:
-      "Students showcase what they've learned through songs and poems.",
-    icon: <Users className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find(
-      (img) => img.id === 'journey-graduation-performance'
-    ),
-  },
-  {
-    title: 'Family Photos',
-    description: 'Special moments captured with proud parents and teachers.',
-    icon: <Users className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find(
-      (img) => img.id === 'journey-graduation-family'
-    ),
-  },
-];
-
 export default function OurJourneyPage() {
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
+
+  const journeyImages = PlaceHolderImages.our_journey_page || [];
+
+  const clubs = [
+    {
+      title: 'Art Club',
+      description:
+        'Our young artists explore colors, shapes, and creativity through fun projects that develop fine motor skills.',
+      icon: <Paintbrush className="h-8 w-8 text-primary" />,
+      image: journeyImages.find((img) => img.id === 'club-art'),
+    },
+    {
+      title: 'Music Club',
+      description:
+        'Children discover rhythm, melody, and the joy of making music with simple instruments and movement.',
+      icon: <Music className="h-8 w-8 text-primary" />,
+      image: journeyImages.find((img) => img.id === 'club-music'),
+    },
+    {
+      title: 'Science Club',
+      description:
+        'Fun experiments and nature exploration spark curiosity about the world around us.',
+      icon: <Beaker className="h-8 w-8 text-primary" />,
+      image: journeyImages.find((img) => img.id === 'club-science'),
+    },
+    {
+      title: 'Sports Club',
+      description:
+        'Basic sports skills, teamwork, and healthy competition in a fun, supportive environment.',
+      icon: <Trophy className="h-8 w-8 text-primary" />,
+      image: journeyImages.find((img) => img.id === 'club-sports'),
+    },
+  ];
+  
+  const academics = [
+    {
+      title: 'Language Development',
+      description:
+        'Phonics, vocabulary, and storytelling build strong communication foundations.',
+      icon: <BookOpen className="h-8 w-8 text-primary" />,
+      image: journeyImages.find(
+        (img) => img.id === 'academic-language'
+      ),
+    },
+    {
+      title: 'Math Readiness',
+      description: 'Counting, sorting, and pattern recognition through engaging activities.',
+      icon: <Calculator className="h-8 w-8 text-primary" />,
+      image: journeyImages.find(
+        (img) => img.id === 'academic-math'
+      ),
+    },
+    {
+      title: 'Writing Practice',
+      description: 'Developing fine motor skills for writing.',
+      icon: <Pen className="h-8 w-8 text-primary" />,
+      image: journeyImages.find(
+        (img) => img.id === 'academic-writing'
+      ),
+    },
+    {
+      title: 'Learning Through Play',
+      description: 'Structured play builds social and cognitive skills.',
+      icon: <Users className="h-8 w-8 text-primary" />,
+      image: journeyImages.find(
+        (img) => img.id === 'academic-social'
+      ),
+    },
+  ];
+  
+  const graduations = [
+    {
+      title: 'Graduation Day',
+      description: 'A special ceremony marking the completion of kindergarten.',
+      icon: <GraduationCap className="h-8 w-8 text-primary" />,
+      image: journeyImages.find((img) => img.id === 'graduation-day'),
+    },
+    {
+      title: 'Cap Decorating',
+      description:
+        'Students personalize their graduation caps as a creative keepsake.',
+      icon: <Paintbrush className="h-8 w-8 text-primary" />,
+      image: journeyImages.find(
+        (img) => img.id === 'graduation-caps'
+      ),
+    },
+    {
+      title: 'Class Performance',
+      description:
+        "Students showcase what they've learned through songs and poems.",
+      icon: <Users className="h-8 w-8 text-primary" />,
+      image: journeyImages.find(
+        (img) => img.id === 'graduation-performance'
+      ),
+    },
+    {
+      title: 'Family Photos',
+      description: 'Special moments captured with proud parents and teachers.',
+      icon: <Users className="h-8 w-8 text-primary" />,
+      image: journeyImages.find(
+        (img) => img.id === 'graduation-family'
+      ),
+    },
+  ];
 
   return (
     <>
@@ -313,3 +315,5 @@ export default function OurJourneyPage() {
     </>
   );
 }
+
+    

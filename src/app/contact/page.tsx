@@ -5,8 +5,9 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import ContactForm from './ContactForm';
 
 export default function ContactPage() {
-  const contactImage = PlaceHolderImages.find(
-    (img) => img.id === 'contact-info'
+  const contactImages = PlaceHolderImages.contact_page || [];
+  const contactImage = contactImages.find(
+    (img) => img.id === 'info'
   );
 
   return (
@@ -99,3 +100,5 @@ export default function ContactPage() {
     </>
   );
 }
+
+    

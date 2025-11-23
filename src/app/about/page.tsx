@@ -38,33 +38,34 @@ const testimonials = [
 ];
 
 export default function AboutPage() {
-  const pageHeaderImage = PlaceHolderImages.find((img) => img.id === 'about-header');
-  const missionImage = PlaceHolderImages.find(
-    (img) => img.id === 'about-mission-image'
+  const aboutImages = PlaceHolderImages.about_page || [];
+  const pageHeaderImage = aboutImages.find((img) => img.id === 'header');
+  const missionImage = aboutImages.find(
+    (img) => img.id === 'mission-image'
   );
-  const inspirationImage = PlaceHolderImages.find(
-    (img) => img.id === 'about-inspiration'
-  ); 
-  const commitmentImage = PlaceHolderImages.find(
-    (img) => img.id === 'about-commitment'
-  ); 
+  const inspirationImage = aboutImages.find(
+    (img) => img.id === 'inspiration'
+  );
+  const commitmentImage = aboutImages.find(
+    (img) => img.id === 'commitment'
+  );
 
-  const headTeacherImg = PlaceHolderImages.find(
-    (img) => img.id === 'about-team-headteacher'
+  const headTeacherImg = aboutImages.find(
+    (img) => img.id === 'team-headteacher'
   );
-  const teachingStaffImg = PlaceHolderImages.find(
-    (img) => img.id === 'about-team-teaching-staff'
+  const teachingStaffImg = aboutImages.find(
+    (img) => img.id === 'team-teaching-staff'
   );
-  const nonTeachingStaffImg = PlaceHolderImages.find(
-    (img) => img.id === 'about-team-non-teaching-staff'
+  const nonTeachingStaffImg = aboutImages.find(
+    (img) => img.id === 'team-non-teaching-staff'
   );
-  const classroomImg = PlaceHolderImages.find(
-    (img) => img.id === 'about-facilities-classrooms'
+  const classroomImg = aboutImages.find(
+    (img) => img.id === 'facilities-classrooms'
   );
-  const vanImg = PlaceHolderImages.find(
-    (img) => img.id === 'about-facilities-vans'
-  ); 
-  const quoteImage = PlaceHolderImages.find((img) => img.id === 'about-quote');
+  const vanImg = aboutImages.find(
+    (img) => img.id === 'facilities-vans'
+  );
+  const quoteImage = aboutImages.find((img) => img.id === 'quote');
 
 
   return (
@@ -303,3 +304,5 @@ export default function AboutPage() {
     </div>
   );
 }
+
+    

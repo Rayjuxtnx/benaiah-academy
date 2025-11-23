@@ -51,24 +51,6 @@ const features = [
   },
 ];
 
-const programs = [
-  {
-    name: 'Toddler Program',
-    age: '18 months - 3 years',
-    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-skating'),
-  },
-  {
-    name: 'Preschool',
-    age: '3 - 4 years',
-    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-arts'),
-  },
-  {
-    name: 'Pre-Kindergarten',
-    age: '4 - 5 years',
-    image: PlaceHolderImages.find((img) => img.id === 'journey-academic-language'),
-  },
-];
-
 const testimonials = [
   {
     name: 'Sarah L.',
@@ -91,10 +73,32 @@ const testimonials = [
 ];
 
 export default function Home() {
-  const heroImage = PlaceHolderImages.find((img) => img.id === 'home-hero');
-  const welcomeImage = PlaceHolderImages.find((img) => img.id === 'home-welcome');
-  const nurturingImage = PlaceHolderImages.find((img) => img.id === 'home-nurturing');
-  const ctaImage = PlaceHolderImages.find((img) => img.id === 'home-cta');
+  const homeImages = PlaceHolderImages.home_page || [];
+  const heroImage = homeImages.find((img) => img.id === 'hero');
+  const welcomeImage = homeImages.find((img) => img.id === 'welcome');
+  const nurturingImage = homeImages.find((img) => img.id === 'nurturing');
+  const ctaImage = homeImages.find((img) => img.id === 'cta');
+
+  const programsPageImages = PlaceHolderImages.programs_page || [];
+  const journeyPageImages = PlaceHolderImages.our_journey_page || [];
+
+  const programs = [
+    {
+      name: 'Toddler Program',
+      age: '18 months - 3 years',
+      image: programsPageImages.find((img) => img.id === 'activity-skating'),
+    },
+    {
+      name: 'Preschool',
+      age: '3 - 4 years',
+      image: programsPageImages.find((img) => img.id === 'activity-arts'),
+    },
+    {
+      name: 'Pre-Kindergarten',
+      age: '4 - 5 years',
+      image: journeyPageImages.find((img) => img.id === 'academic-language'),
+    },
+  ];
 
 
   return (
@@ -203,10 +207,10 @@ export default function Home() {
         <div className="absolute inset-0 bg-primary/80" />
         <div className="container px-4 md:px-6 relative">
           <div className="mx-auto max-w-3xl text-center space-y-4">
-            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl text-white">
               Join the Benaiah Academy Family
             </h2>
-            <p className="text-lg">
+            <p className="text-lg text-white">
               Welcome to Benaiah Academy—where every child's journey begins with purpose and hope. Ready to give your child an unforgettable start? Schedule a tour or contact us to learn more about our enrollment process.
             </p>
             <Button
@@ -223,3 +227,5 @@ export default function Home() {
     </div>
   );
 }
+
+    

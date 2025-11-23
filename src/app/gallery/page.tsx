@@ -4,8 +4,9 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Camera } from 'lucide-react';
 
 export default function GalleryPage() {
-  const pageHeaderImage = PlaceHolderImages.find((img) => img.id === 'gallery-header');
-  const galleryImages = PlaceHolderImages.filter(img => img.id.startsWith('gallery-') && img.id !== 'gallery-header');
+  const galleryImages = PlaceHolderImages.gallery_page || [];
+  const pageHeaderImage = galleryImages.find((img) => img.id === 'header');
+  const imagesToDisplay = galleryImages.filter(img => img.id.startsWith('gallery-'));
 
   return (
     <>
@@ -36,7 +37,7 @@ export default function GalleryPage() {
       <section>
         <div className="container px-4 md:px-6">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {galleryImages.map((image) => (
+            {imagesToDisplay.map((image) => (
               <Card key={image.id} className="overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl">
                 <CardContent className="p-0">
                   <div className="aspect-square relative">
@@ -58,3 +59,5 @@ export default function GalleryPage() {
     </>
   );
 }
+
+    

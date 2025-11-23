@@ -3,57 +3,6 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Paintbrush, Bus, Leaf, Music, Wind, Puzzle, Users, Award } from 'lucide-react';
 
-const activities = [
-  {
-    title: 'Arts and Crafts',
-    description: 'Face painting at Benaiah Academy adds a splash of color and joy, sparking creativity and fun in every child\'s experience.',
-    icon: <Paintbrush className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-arts'),
-  },
-  {
-    title: 'Field Trips',
-    description: 'Our regular visits to the National Orphanage help instill empathy, kindness, and a strong sense of social responsibility in our learners.',
-    icon: <Bus className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-trips'),
-  },
-  {
-    title: 'Connecting with Nature',
-    description: 'Our frequent outdoor activities immerse students in the beauty of the natural world, fostering curiosity, environmental awareness, and a lifelong love for nature.',
-    icon: <Leaf className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-nature'),
-  },
-  {
-    title: 'Celebrating Through Music',
-    description: 'Our regular music festivals bring students together to express creativity, build confidence, and enjoy the joy of rhythm and melody in a vibrant community setting.',
-    icon: <Music className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-music'),
-  },
-  {
-    title: 'The Playground',
-    description: 'Our students regularly enjoy the playground, a vibrant space where they play, explore, and develop their physical skills while building lasting friendships.',
-    icon: <Wind className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-playground'),
-  },
-  {
-    title: 'Drama Festivals',
-    description: 'We frequently participate in drama festivals, giving our students the chance to showcase their creativity, build confidence, and express themselves through captivating performances.',
-    icon: <Users className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-drama'),
-  },
-   {
-    title: 'Skating',
-    description: 'Skating sessions are a regular part of our activities, helping students develop balance, coordination, and have fun while staying active.',
-    icon: <Award className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-skating'),
-  },
-   {
-    title: 'Just Chilling',
-    description: 'Our students often enjoy relaxed moments together, unwinding and bonding in a calm and friendly environment that nurtures friendship and well-being.',
-    icon: <Puzzle className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-chilling'),
-  },
-];
-
 const funActivities = [
     { title: 'Playful Learning', description: 'Joyful activities that make learning an adventure.' },
     { title: 'Creative Expression', description: 'Encouraging imagination through artistic play.' },
@@ -62,8 +11,61 @@ const funActivities = [
 ]
 
 export default function ProgramsPage() {
-  const pageHeaderImage = PlaceHolderImages.find((img) => img.id === 'programs-header');
-  const quoteImage = PlaceHolderImages.find((img) => img.id === 'programs-quote');
+  const programImages = PlaceHolderImages.programs_page || [];
+  const pageHeaderImage = programImages.find((img) => img.id === 'header');
+  const quoteImage = programImages.find((img) => img.id === 'quote');
+
+  const activities = [
+    {
+      title: 'Arts and Crafts',
+      description: 'Face painting at Benaiah Academy adds a splash of color and joy, sparking creativity and fun in every child\'s experience.',
+      icon: <Paintbrush className="h-8 w-8 text-primary" />,
+      image: programImages.find((img) => img.id === 'activity-arts'),
+    },
+    {
+      title: 'Field Trips',
+      description: 'Our regular visits to the National Orphanage help instill empathy, kindness, and a strong sense of social responsibility in our learners.',
+      icon: <Bus className="h-8 w-8 text-primary" />,
+      image: programImages.find((img) => img.id === 'activity-trips'),
+    },
+    {
+      title: 'Connecting with Nature',
+      description: 'Our frequent outdoor activities immerse students in the beauty of the natural world, fostering curiosity, environmental awareness, and a lifelong love for nature.',
+      icon: <Leaf className="h-8 w-8 text-primary" />,
+      image: programImages.find((img) => img.id === 'activity-nature'),
+    },
+    {
+      title: 'Celebrating Through Music',
+      description: 'Our regular music festivals bring students together to express creativity, build confidence, and enjoy the joy of rhythm and melody in a vibrant community setting.',
+      icon: <Music className="h-8 w-8 text-primary" />,
+      image: programImages.find((img) => img.id === 'activity-music'),
+    },
+    {
+      title: 'The Playground',
+      description: 'Our students regularly enjoy the playground, a vibrant space where they play, explore, and develop their physical skills while building lasting friendships.',
+      icon: <Wind className="h-8 w-8 text-primary" />,
+      image: programImages.find((img) => img.id === 'activity-playground'),
+    },
+    {
+      title: 'Drama Festivals',
+      description: 'We frequently participate in drama festivals, giving our students the chance to showcase their creativity, build confidence, and express themselves through captivating performances.',
+      icon: <Users className="h-8 w-8 text-primary" />,
+      image: programImages.find((img) => img.id === 'activity-drama'),
+    },
+     {
+      title: 'Skating',
+      description: 'Skating sessions are a regular part of our activities, helping students develop balance, coordination, and have fun while staying active.',
+      icon: <Award className="h-8 w-8 text-primary" />,
+      image: programImages.find((img) => img.id === 'activity-skating'),
+    },
+     {
+      title: 'Just Chilling',
+      description: 'Our students often enjoy relaxed moments together, unwinding and bonding in a calm and friendly environment that nurtures friendship and well-being.',
+      icon: <Puzzle className="h-8 w-8 text-primary" />,
+      image: programImages.find((img) => img.id === 'activity-chilling'),
+    },
+  ];
+
   return (
     <>
       <section className="bg-card text-center relative">
@@ -157,3 +159,5 @@ export default function ProgramsPage() {
     </>
   );
 }
+
+    

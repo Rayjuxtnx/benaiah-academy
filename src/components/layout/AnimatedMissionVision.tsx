@@ -11,7 +11,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 export function AnimatedMissionVision() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
-  const bgImage = PlaceHolderImages.find((img) => img.id === 'home-mission-vision');
+  const homeImages = PlaceHolderImages.home_page || [];
+  const bgImage = homeImages.find((img) => img.id === 'mission-vision');
 
   return (
     <section id="mission-vision" className="relative" ref={ref}>
@@ -58,3 +59,5 @@ export function AnimatedMissionVision() {
     </section>
   );
 }
+
+    

@@ -3,6 +3,7 @@ import { Mail, MapPin, Phone } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import ContactForm from './ContactForm';
+import { AnimatedGradientBackground } from '@/components/layout/AnimatedGradientBackground';
 
 export default function ContactPage() {
   const contactImages = PlaceHolderImages.contact_page || [];
@@ -12,17 +13,19 @@ export default function ContactPage() {
 
   return (
     <>
-      <section className="bg-card text-center">
-        <div className="container px-4 md:px-6">
-          <div className="mx-auto max-w-3xl space-y-2">
-            <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-              Get in Touch
-            </h1>
-            <p className="text-muted-foreground md:text-xl/relaxed">
-              We'd love to hear from you! Whether you have a question about our programs or want to schedule a tour, we're here to help.
-            </p>
+      <section className="text-center">
+        <AnimatedGradientBackground>
+           <div className="container px-4 md:px-6 py-12 md:py-24 lg:py-32">
+            <div className="mx-auto max-w-3xl space-y-2">
+              <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-primary-foreground">
+                Get in Touch
+              </h1>
+              <p className="text-primary-foreground/90 md:text-xl/relaxed">
+                We'd love to hear from you! Whether you have a question about our programs or want to schedule a tour, we're here to help.
+              </p>
+            </div>
           </div>
-        </div>
+        </AnimatedGradientBackground>
       </section>
 
       <section>

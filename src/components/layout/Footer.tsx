@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="w-full bg-card border-t">
       <div className="container py-8 px-4 md:px-6">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2">
           <div className="space-y-4">
             <Logo />
              <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -16,7 +16,7 @@ export function Footer() {
               </a>
             </div>
           </div>
-          <div className="space-y-2">
+          <div className="space-y-2 sm:text-right">
             <h4 className="font-headline font-semibold">Quick Links</h4>
             <ul className="space-y-1">
               <li><Link href="/about" className="text-sm text-muted-foreground hover:text-primary">About Us</Link></li>

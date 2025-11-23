@@ -77,6 +77,48 @@
       "description": "A bright and welcoming front desk area of a school.",
       "imageUrl": "https://images.unsplash.com/photo-1753546466496-d2d8a819f61a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2Nob29sJTIwcmVjZXB0aW9ufGVufDB8fHx8MTc2Mzg5ODU5MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "school reception"
+    },
+    {
+      "id": "journey-club-art",
+      "description": "Children drawing with colorful pencils.",
+      "imageUrl": "https://images.unsplash.com/photo-1506729623306-b5a939d88994?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMGRyYXdpbmd8ZW58MHx8fHwxNzYzOTExMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children drawing"
+    },
+    {
+      "id": "journey-club-music",
+      "description": "A child playing a small colorful xylophone.",
+      "imageUrl": "https://images.unsplash.com/photo-1541692348507-73d131929d59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZCUyMHh5bG9waG9uZXxlbnwwfHx8fDE3NjM5MTEyMTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child xylophone"
+    },
+    {
+      "id": "journey-club-sports",
+      "description": "Children in jerseys running on a sports field.",
+      "imageUrl": "https://images.unsplash.com/photo-1582298519515-288277a41b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwc3BvcnRzfGVufDB8fHx8MTc2MzkxMTIxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kids sports"
+    },
+    {
+      "id": "journey-academic-math",
+      "description": "Colorful wooden numbers and counting blocks on a table.",
+      "imageUrl": "https://images.unsplash.com/photo-1525909002-15104b20216i?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYXRoJTIwYmxvY2tzfGVufDB8fHx8MTc2MzkxMTIxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "math blocks"
+    },
+    {
+      "id": "journey-graduation-caps",
+      "description": "Close up of a child's hands decorating a graduation cap with glitter and stickers.",
+      "imageUrl": "https://images.unsplash.com/photo-1628198661856-102874fb9d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGdyYWR1YXRpb258ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "graduation cap"
+    },
+    {
+      "id": "journey-graduation-performance",
+      "description": "A group of children on a small stage singing.",
+      "imageUrl": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMHNpbmdpbmd8ZW58MHx8fHwxNzYzOTExMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children singing"
+    },
+    {
+      "id": "journey-graduation-family",
+      "description": "A smiling family taking a photo with a child in a graduation gown.",
+      "imageUrl": "https://images.unsplash.com/photo-1558023187-9293b22416b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjeWJlcnNlY3VyaXR5fGVufDB8fHx8MTc2Mzg3NjU2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "family celebration"
     }
   ]
 }

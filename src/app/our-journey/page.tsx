@@ -1,38 +1,90 @@
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Award, Building, Heart, Leaf } from 'lucide-react';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+import { Paintbrush, Music, Beaker, Trophy, BookOpen, Calculator, GraduationCap, Users } from 'lucide-react';
 
-const journeyMilestones = [
+const clubs = [
   {
-    date: '2010',
-    title: 'Benaiah Academy is Born',
-    description: 'Founded with a single class of 10 students, our journey began with a mission to create a joyful learning space.',
-    icon: <Heart className="h-6 w-6 text-white" />,
-    image: PlaceHolderImages.find((img) => img.id === 'journey-1'),
+    title: 'Art Club',
+    description: "Our young artists explore colors, shapes, and creativity through fun projects that develop fine motor skills.",
+    icon: <Paintbrush className="h-8 w-8 text-primary" />,
+    image: PlaceHolderImages.find((img) => img.id === 'journey-club-art'),
   },
   {
-    date: '2014',
-    title: 'Moved to Our New Home',
-    description: 'We moved into our current, larger campus, featuring a dedicated playground and sunny classrooms.',
-    icon: <Building className="h-6 w-6 text-white" />,
-    image: PlaceHolderImages.find((img) => img.id === 'journey-2'),
+    title: 'Music Club',
+    description: "Children discover rhythm, melody, and the joy of making music with simple instruments and movement.",
+    icon: <Music className="h-8 w-8 text-primary" />,
+    image: PlaceHolderImages.find((img) => img.id === 'journey-club-music'),
   },
   {
-    date: '2018',
-    title: 'Launched Our Garden Program',
-    description: 'Students began learning about nature firsthand by planting and tending to our very own school garden.',
-    icon: <Leaf className="h-6 w-6 text-white" />,
+    title: 'Science Club',
+    description: "Fun experiments and nature exploration spark curiosity about the world around us.",
+    icon: <Beaker className="h-8 w-8 text-primary" />,
     image: PlaceHolderImages.find((img) => img.id === 'journey-3'),
   },
   {
-    date: '2022',
-    title: 'Recognized for Excellence',
-    description: 'Received the "Community Choice Award" for best early childhood education center in Sunnyville.',
-    icon: <Award className="h-6 w-6 text-white" />,
-    image: PlaceHolderImages.find((img) => img.id === 'journey-4'),
+    title: 'Sports Club',
+    description: "Basic sports skills, teamwork, and healthy competition in a fun, supportive environment.",
+    icon: <Trophy className="h-8 w-8 text-primary" />,
+    image: PlaceHolderImages.find((img) => img.id === 'journey-club-sports'),
   },
 ];
+
+const academics = [
+    {
+        title: 'Language Development',
+        description: 'Phonics, vocabulary, and storytelling build strong communication foundations.',
+        icon: <BookOpen className="h-8 w-8 text-primary" />,
+        image: PlaceHolderImages.find((img) => img.id === 'program-prek'),
+    },
+    {
+        title: 'Math Readiness',
+        description: 'Counting, sorting, and pattern recognition through engaging activities.',
+        icon: <Calculator className="h-8 w-8 text-primary" />,
+        image: PlaceHolderImages.find((img) => img.id === 'journey-academic-math'),
+    },
+    {
+        title: 'Science Exploration',
+        description: 'Simple experiments introduce scientific thinking and observation skills.',
+        icon: <Beaker className="h-8 w-8 text-primary" />,
+        image: PlaceHolderImages.find((img) => img.id === 'journey-3'),
+    },
+    {
+        title: 'Social Development',
+        description: 'Group activities teach cooperation, sharing, and emotional intelligence.',
+        icon: <Users className="h-8 w-8 text-primary" />,
+        image: PlaceHolderImages.find((img) => img.id === 'home-hero'),
+    },
+]
+
+const graduations = [
+    {
+        title: 'Graduation Day',
+        description: 'A special ceremony marking the completion of kindergarten.',
+        icon: <GraduationCap className="h-8 w-8 text-primary" />,
+        image: PlaceHolderImages.find((img) => img.id === 'journey-4'),
+    },
+    {
+        title: 'Cap Decorating',
+        description: 'Students personalize their graduation caps as a creative keepsake.',
+        icon: <Paintbrush className="h-8 w-8 text-primary" />,
+        image: PlaceHolderImages.find((img) => img.id === 'journey-graduation-caps'),
+    },
+    {
+        title: 'Class Performance',
+        description: 'Students showcase what they\'ve learned through songs and poems.',
+        icon: <Users className="h-8 w-8 text-primary" />,
+        image: PlaceHolderImages.find((img) => img.id === 'journey-graduation-performance'),
+    },
+    {
+        title: 'Family Celebrations',
+        description: 'Special moments captured with proud parents and teachers.',
+        icon: <Users className="h-8 w-8 text-primary" />,
+        image: PlaceHolderImages.find((img) => img.id === 'journey-graduation-family'),
+    },
+]
+
 
 export default function OurJourneyPage() {
   return (
@@ -44,44 +96,61 @@ export default function OurJourneyPage() {
               Our Journey
             </h1>
             <p className="text-muted-foreground md:text-xl/relaxed">
-              A timeline of our growth, milestones, and cherished memories.
+              Explore the milestones and experiences that shape our students' educational path at Benaiah Academy.
             </p>
           </div>
         </div>
       </section>
 
-      <section>
+      <section id="clubs">
         <div className="container px-4 md:px-6">
-          <div className="relative max-w-2xl mx-auto">
-            <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-border"></div>
-            {journeyMilestones.map((item, index) => (
-              <div key={item.title} className="relative mb-12">
-                <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary p-2">
-                  {item.icon}
-                </div>
-                <div
-                  className={`flex items-center ${
-                    index % 2 === 0 ? 'justify-start' : 'justify-end'
-                  }`}
-                >
-                  <div
-                    className={`w-[calc(50%-2rem)] ${
-                      index % 2 === 0 ? 'text-right' : 'text-left'
-                    }`}
-                  >
-                    <p className="font-headline text-2xl font-bold text-primary">
-                      {item.date}
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className={`mt-4 ${
-                    index % 2 === 0 ? 'md:mr-auto' : 'md:ml-auto'
-                  } w-full md:w-[calc(50%-2rem)]`}
-                >
-                  <Card className="shadow-lg transition-transform hover:scale-105">
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">Clubs</h2>
+            <p className="max-w-2xl mx-auto text-muted-foreground md:text-lg">Discover the vibrant extracurricular activities that enrich our students' learning experience.</p>
+          </div>
+          <Carousel opts={{ align: "start", loop: true }} className="w-full max-w-4xl mx-auto">
+            <CarouselContent>
+              {clubs.map((club) => (
+                <CarouselItem key={club.title} className="md:basis-1/2 lg:basis-1/3">
+                  <Card className="h-full">
+                     {club.image && (
+                        <Image
+                          src={club.image.imageUrl}
+                          alt={club.image.description}
+                          width={600}
+                          height={400}
+                          className="rounded-t-lg object-cover aspect-video"
+                          data-ai-hint={club.image.imageHint}
+                        />
+                      )}
                     <CardHeader>
-                      {item.image && (
+                      <CardTitle className="flex items-center gap-2">{club.icon} {club.title}</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">{club.description}</p>
+                    </CardContent>
+                  </Card>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
+      </section>
+
+      <section id="academic-journey" className="bg-card">
+        <div className="container px-4 md:px-6">
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">Academic Journey</h2>
+            <p className="max-w-2xl mx-auto text-muted-foreground md:text-lg">Follow our students' learning path from foundational skills to kindergarten readiness.</p>
+          </div>
+          <Carousel opts={{ align: "start", loop: true }} className="w-full max-w-4xl mx-auto">
+            <CarouselContent>
+              {academics.map((item) => (
+                <CarouselItem key={item.title} className="md:basis-1/2 lg:basis-1/3">
+                  <Card className="h-full">
+                     {item.image && (
                         <Image
                           src={item.image.imageUrl}
                           alt={item.image.description}
@@ -91,16 +160,56 @@ export default function OurJourneyPage() {
                           data-ai-hint={item.image.imageHint}
                         />
                       )}
-                      <CardTitle className={`pt-4 ${index % 2 === 0 ? 'md:text-left' : 'md:text-left'}`}>{item.title}</CardTitle>
+                    <CardHeader>
+                      <CardTitle className="flex items-center gap-2">{item.icon} {item.title}</CardTitle>
                     </CardHeader>
-                    <CardContent className={`${index % 2 === 0 ? 'md:text-left' : 'md:text-left'}`}>
+                    <CardContent>
                       <p className="text-muted-foreground">{item.description}</p>
                     </CardContent>
                   </Card>
-                </div>
-              </div>
-            ))}
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
+      </section>
+
+      <section id="graduations">
+        <div className="container px-4 md:px-6">
+           <div className="text-center space-y-4 mb-12">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">Graduations</h2>
+            <p className="max-w-2xl mx-auto text-muted-foreground md:text-lg">Celebrating our students' achievements as they prepare for their next educational journey.</p>
           </div>
+          <Carousel opts={{ align: "start", loop: true }} className="w-full max-w-4xl mx-auto">
+            <CarouselContent>
+              {graduations.map((item) => (
+                <CarouselItem key={item.title} className="md:basis-1/2 lg:basis-1/3">
+                  <Card className="h-full">
+                     {item.image && (
+                        <Image
+                          src={item.image.imageUrl}
+                          alt={item.image.description}
+                          width={600}
+                          height={400}
+                          className="rounded-t-lg object-cover aspect-video"
+                          data-ai-hint={item.image.imageHint}
+                        />
+                      )}
+                    <CardHeader>
+                      <CardTitle className="flex items-center gap-2">{item.icon} {item.title}</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">{item.description}</p>
+                    </CardContent>
+                  </Card>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
         </div>
       </section>
     </>

@@ -190,7 +190,7 @@ export default function Home() {
         </div>
       </section>
 
-       <section id="cta" className="relative text-accent-foreground">
+       <section id="cta" className="relative text-white">
         {ctaImage && (
           <Image
             src={ctaImage.imageUrl}
@@ -213,7 +213,7 @@ export default function Home() {
               asChild
               size="lg"
               variant="secondary"
-              className="bg-background text-foreground hover:bg-background/90 transition-transform hover:scale-105"
+              className="bg-white text-primary hover:bg-white/90 transition-transform hover:scale-105"
             >
               <Link href="/contact">Get in Touch</Link>
             </Button>

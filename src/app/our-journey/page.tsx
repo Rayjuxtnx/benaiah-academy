@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-import { Paintbrush, Music, Beaker, Trophy, BookOpen, Calculator, GraduationCap, Users } from 'lucide-react';
+import { Paintbrush, Music, Beaker, Trophy, BookOpen, Calculator, GraduationCap, Users, Pencil } from 'lucide-react';
 
 const clubs = [
   {
@@ -78,7 +78,7 @@ const graduations = [
         image: PlaceHolderImages.find((img) => img.id === 'journey-graduation-performance'),
     },
     {
-        title: 'Family Celebrations',
+        title: 'Family Photos',
         description: 'Special moments captured with proud parents and teachers.',
         icon: <Users className="h-8 w-8 text-primary" />,
         image: PlaceHolderImages.find((img) => img.id === 'journey-graduation-family'),

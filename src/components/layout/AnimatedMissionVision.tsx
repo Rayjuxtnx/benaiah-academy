@@ -4,18 +4,32 @@ import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 import { Star, Target } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+
 
 export function AnimatedMissionVision() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
+  const bgImage = PlaceHolderImages.find((img) => img.id === 'journey-2');
 
   return (
-    <section id="mission-vision" className="bg-card" ref={ref}>
-      <div className="container px-4 md:px-6">
+    <section id="mission-vision" className="relative" ref={ref}>
+       {bgImage && (
+        <Image
+          src={bgImage.imageUrl}
+          alt={bgImage.description}
+          fill
+          className="object-cover blur-sm"
+          data-ai-hint={bgImage.imageHint}
+        />
+      )}
+      <div className="absolute inset-0 bg-background/60" />
+      <div className="relative container px-4 md:px-6 py-12 md:py-24 lg:py-32">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-start">
           <div
             className={cn(
-              'flex flex-col items-center text-center space-y-4 transition-all duration-700 ease-out transform',
+              'flex flex-col items-center text-center space-y-4 transition-all duration-700 ease-out transform p-6 rounded-lg bg-card/80 backdrop-blur-sm',
               isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10',
               'hover:scale-105'
             )}
@@ -28,7 +42,7 @@ export function AnimatedMissionVision() {
           </div>
           <div
             className={cn(
-              'flex flex-col items-center text-center space-y-4 transition-all duration-700 ease-out transform delay-200',
+              'flex flex-col items-center text-center space-y-4 transition-all duration-700 ease-out transform delay-200 p-6 rounded-lg bg-card/80 backdrop-blur-sm',
               isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10',
               'hover:scale-105'
             )}

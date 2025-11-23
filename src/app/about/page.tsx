@@ -38,33 +38,33 @@ const testimonials = [
 ];
 
 export default function AboutPage() {
-  const pageHeaderImage = PlaceHolderImages.find((img) => img.id === 'journey-graduation-performance');
+  const pageHeaderImage = PlaceHolderImages.find((img) => img.id === 'about-header');
   const missionImage = PlaceHolderImages.find(
-    (img) => img.id === 'about-mission'
+    (img) => img.id === 'about-mission-image'
   );
   const inspirationImage = PlaceHolderImages.find(
-    (img) => img.id === 'journey-2'
-  ); // using a placeholder
+    (img) => img.id === 'about-inspiration'
+  ); 
   const commitmentImage = PlaceHolderImages.find(
-    (img) => img.id === 'journey-3'
-  ); // using a placeholder
+    (img) => img.id === 'about-commitment'
+  ); 
 
   const headTeacherImg = PlaceHolderImages.find(
-    (img) => img.id === 'about-team-2'
+    (img) => img.id === 'about-team-headteacher'
   );
   const teachingStaffImg = PlaceHolderImages.find(
-    (img) => img.id === 'about-team-1'
+    (img) => img.id === 'about-team-teaching-staff'
   );
   const nonTeachingStaffImg = PlaceHolderImages.find(
-    (img) => img.id === 'about-team-3'
+    (img) => img.id === 'about-team-non-teaching-staff'
   );
   const classroomImg = PlaceHolderImages.find(
-    (img) => img.id === 'home-hero'
+    (img) => img.id === 'about-facilities-classrooms'
   );
   const vanImg = PlaceHolderImages.find(
-    (img) => img.id === 'program-preschool'
-  ); // placeholder for van
-  const quoteImage = PlaceHolderImages.find((img) => img.id === 'program-toddler');
+    (img) => img.id === 'about-facilities-vans'
+  ); 
+  const quoteImage = PlaceHolderImages.find((img) => img.id === 'about-quote');
 
 
   return (

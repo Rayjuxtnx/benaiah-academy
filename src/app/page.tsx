@@ -55,17 +55,17 @@ const programs = [
   {
     name: 'Toddler Program',
     age: '18 months - 3 years',
-    image: PlaceHolderImages.find((img) => img.id === 'program-toddler'),
+    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-skating'),
   },
   {
     name: 'Preschool',
     age: '3 - 4 years',
-    image: PlaceHolderImages.find((img) => img.id === 'program-preschool'),
+    image: PlaceHolderImages.find((img) => img.id === 'programs-activity-arts'),
   },
   {
     name: 'Pre-Kindergarten',
     age: '4 - 5 years',
-    image: PlaceHolderImages.find((img) => img.id === 'program-prek'),
+    image: PlaceHolderImages.find((img) => img.id === 'journey-academic-language'),
   },
 ];
 
@@ -92,9 +92,9 @@ const testimonials = [
 
 export default function Home() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'home-hero');
-  const welcomeImage = PlaceHolderImages.find((img) => img.id === 'journey-3');
-  const nurturingImage = PlaceHolderImages.find((img) => img.id === 'about-mission');
-  const ctaImage = PlaceHolderImages.find((img) => img.id === 'journey-4');
+  const welcomeImage = PlaceHolderImages.find((img) => img.id === 'home-welcome');
+  const nurturingImage = PlaceHolderImages.find((img) => img.id === 'home-nurturing');
+  const ctaImage = PlaceHolderImages.find((img) => img.id === 'home-cta');
 
 
   return (

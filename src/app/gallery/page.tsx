@@ -4,8 +4,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Camera } from 'lucide-react';
 
 export default function GalleryPage() {
-  const pageHeaderImage = PlaceHolderImages.find((img) => img.id === 'gallery-1');
-  const galleryImages = PlaceHolderImages.filter(img => img.id.startsWith('gallery-'));
+  const pageHeaderImage = PlaceHolderImages.find((img) => img.id === 'gallery-header');
+  const galleryImages = PlaceHolderImages.filter(img => img.id.startsWith('gallery-') && img.id !== 'gallery-header');
 
   return (
     <>

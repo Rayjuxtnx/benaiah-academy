@@ -7,190 +7,304 @@
       "imageHint": "children school"
     },
     {
-      "id": "program-toddler",
-      "description": "A toddler playing with colorful wooden blocks on a soft rug.",
-      "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2RkbGVyJTIwcGxheWluZ3xlbnwwfHx8fDE3NjM4MzkxODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "toddler playing"
-    },
-    {
-      "id": "program-preschool",
-      "description": "A group of preschoolers painting a rainbow on a large piece of paper.",
-      "imageUrl": "https://images.unsplash.com/photo-1666710988451-ba4450498967?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZHJlbiUyMHBhaW50aW5nfGVufDB8fHx8MTc2Mzc5MzEwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "children painting"
-    },
-    {
-      "id": "program-prek",
-      "description": "A diverse group of pre-k children sitting in a circle listening to a teacher read a book.",
-      "imageUrl": "https://images.unsplash.com/photo-1554721299-e0b8aa7666ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwcmVhZGluZ3xlbnwwfHx8fDE3NjM4NDI1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "kids reading"
-    },
-    {
-      "id": "about-mission",
-      "description": "A diverse group of children holding hands in a circle on a grassy field.",
-      "imageUrl": "https://images.unsplash.com/photo-1527091481625-e3d4db4fc3fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMGRpdmVyc2l0eXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "children diversity"
-    },
-    {
-      "id": "about-team-1",
-      "description": "Portrait of a friendly female teacher smiling.",
-      "imageUrl": "https://images.unsplash.com/photo-1509398484917-2a5b6439feef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFjaGVyJTIwc21pbGluZ3xlbnwwfHx8fDE3NjM4OTg1OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "teacher smiling"
-    },
-    {
-      "id": "about-team-2",
-      "description": "Portrait of a smiling male teacher with glasses.",
-      "imageUrl": "https://images.unsplash.com/photo-1621982400152-883d350ac611?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWFjaGVyJTIwbWFsZXxlbnwwfHx8fDE3NjM4OTg1OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "teacher male"
-    },
-    {
-      "id": "about-team-3",
-      "description": "Portrait of a young female teacher in an art room.",
-      "imageUrl": "https://images.unsplash.com/photo-1752649936912-fe4c451a1d65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFjaGVyJTIwYXJ0fGVufDB8fHx8MTc2Mzg5ODU5MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "teacher art"
-    },
-    {
-      "id": "journey-1",
-      "description": "A sketch of a friendly school building.",
-      "imageUrl": "https://images.unsplash.com/photo-1644004680400-b9425e4efa18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzY2hvb2wlMjBza2V0Y2h8ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "school sketch"
-    },
-    {
-      "id": "journey-2",
-      "description": "Children gathered around planting a small tree.",
-      "imageUrl": "https://images.unsplash.com/photo-1460753311952-cf4606955685?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMG5hdHVyZXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "children nature"
-    },
-    {
-      "id": "journey-3",
+      "id": "home-welcome",
       "description": "Kids in safety goggles looking at a colorful science experiment in a beaker.",
       "imageUrl": "https://images.unsplash.com/photo-1758685734030-a31d96462eec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwc2NpZW5jZXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kids science"
     },
     {
-      "id": "journey-4",
+      "id": "home-mission-vision",
+      "description": "Children gathered around planting a small tree.",
+      "imageUrl": "https://images.unsplash.com/photo-1460753311952-cf4606955685?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMG5hdHVyZXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children nature"
+    },
+    {
+      "id": "home-nurturing",
+      "description": "A diverse group of children holding hands in a circle on a grassy field.",
+      "imageUrl": "https://images.unsplash.com/photo-1527091481625-e3d4db4fc3fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMGRpdmVyc2l0eXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children diversity"
+    },
+    {
+      "id": "home-cta",
       "description": "Happy children in small graduation caps and gowns.",
-      "imageUrl": "https://images.unsplash.com/photo-1628198661856-102874fb9d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGdyYWR1YXRpb258ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1628198661856-102874fb9d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGdyYWR1YXRpb258ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "children graduation"
     },
     {
-      "id": "contact-info",
-      "description": "A bright and welcoming front desk area of a school.",
-      "imageUrl": "https://images.unsplash.com/photo-1753546466496-d2d8a819f61a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2Nob29sJTIwcmVjZXB0aW9ufGVufDB8fHx8MTc2Mzg5ODU5MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "school reception"
-    },
-    {
-      "id": "journey-club-art",
-      "description": "Children drawing with colorful pencils.",
-      "imageUrl": "https://images.unsplash.com/photo-1506729623306-b5a939d88994?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMGRyYXdpbmd8ZW58MHx8fHwxNzYzOTExMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "children drawing"
-    },
-    {
-      "id": "journey-club-music",
-      "description": "A child playing a small colorful xylophone.",
-      "imageUrl": "https://images.unsplash.com/photo-1541692348507-73d131929d59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZCUyMHh5bG9waG9uZXxlbnwwfHx8fDE3NjM5MTEyMTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "child xylophone"
-    },
-    {
-      "id": "journey-club-sports",
-      "description": "Children in jerseys running on a sports field.",
-      "imageUrl": "https://images.unsplash.com/photo-1582298519515-288277a41b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwc3BvcnRzfGVufDB8fHx8MTc2MzkxMTIxNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "kids sports"
-    },
-    {
-      "id": "journey-academic-math",
-      "description": "Colorful wooden numbers and counting blocks on a table.",
-      "imageUrl": "https://images.unsplash.com/photo-1525909002-15104b20216i?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYXRoJTIwYmxvY2tzfGVufDB8fHx8MTc2MzkxMTIxNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "math blocks"
-    },
-    {
-      "id": "journey-graduation-caps",
-      "description": "Close up of a child's hands decorating a graduation cap with glitter and stickers.",
-      "imageUrl": "https://images.unsplash.com/photo-1628198661856-102874fb9d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGdyYWR1YXRpb258ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "graduation cap"
-    },
-    {
-      "id": "journey-graduation-performance",
+      "id": "about-header",
       "description": "A group of children on a small stage singing.",
       "imageUrl": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMHNpbmdpbmd8ZW58MHx8fHwxNzYzOTExMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "children singing"
     },
     {
+      "id": "about-mission-image",
+      "description": "A diverse group of children holding hands in a circle on a grassy field.",
+      "imageUrl": "https://images.unsplash.com/photo-1527091481625-e3d4db4fc3fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMGRpdmVyc2l0eXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children diversity"
+    },
+    {
+      "id": "about-inspiration",
+      "description": "Children gathered around planting a small tree.",
+      "imageUrl": "https://images.unsplash.com/photo-1460753311952-cf4606955685?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMG5hdHVyZXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children nature"
+    },
+    {
+      "id": "about-commitment",
+      "description": "Kids in safety goggles looking at a colorful science experiment in a beaker.",
+      "imageUrl": "https://images.unsplash.com/photo-1758685734030-a31d96462eec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwc2NpZW5jZXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "kids science"
+    },
+    {
+      "id": "about-team-headteacher",
+      "description": "Portrait of a smiling male teacher with glasses.",
+      "imageUrl": "https://images.unsplash.com/photo-1621982400152-883d350ac611?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWFjaGVyJTIwbWFsZXxlbnwwfHx8fDE3NjM4OTg1OTF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "teacher male"
+    },
+    {
+      "id": "about-team-teaching-staff",
+      "description": "Portrait of a friendly female teacher smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1509398484917-2a5b6439feef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFjaGVyJTIwc21pbGluZ3xlbnwwfHx8fDE3NjM4OTg1OTF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "teacher smiling"
+    },
+    {
+      "id": "about-team-non-teaching-staff",
+      "description": "Portrait of a young female teacher in an art room.",
+      "imageUrl": "https://images.unsplash.com/photo-1752649936912-fe4c451a1d65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFjaGVyJTIwYXJ0fGVufDB8fHx8MTc2Mzg5ODU5MHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "teacher art"
+    },
+    {
+      "id": "about-facilities-classrooms",
+      "description": "Happy children playing with building blocks in a bright classroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1588072432836-e10032774350?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZHJlbiUyMHNjaG9vbHxlbnwwfHx8fDE3NjM4NzA1Nzl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children school"
+    },
+    {
+      "id": "about-facilities-vans",
+      "description": "A group of preschoolers painting a rainbow on a large piece of paper.",
+      "imageUrl": "https://images.unsplash.com/photo-1666710988451-ba4450498967?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZHJlbiUyMHBhaW50aW5nfGVufDB8fHx8MTc2Mzc5MzEwM3ww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children painting"
+    },
+    {
+      "id": "about-quote",
+      "description": "A toddler playing with colorful wooden blocks on a soft rug.",
+      "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2RkbGVyJTIwcGxheWluZ3xlbnwwfHx8fDE3NjM4MzkxODF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "toddler playing"
+    },
+    {
+      "id": "programs-header",
+      "description": "Children in jerseys running on a sports field.",
+      "imageUrl": "https://images.unsplash.com/photo-1582298519515-288277a41b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwc3BvcnRzfGVufDB8fHx8MTc2MzkxMTIxNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "kids sports"
+    },
+    {
+      "id": "programs-activity-arts",
+      "description": "A group of preschoolers painting a rainbow on a large piece of paper.",
+      "imageUrl": "https://images.unsplash.com/photo-1666710988451-ba4450498967?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZHJlbiUyMHBhaW50aW5nfGVufDB8fHx8MTc2Mzc5MzEwM3ww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children painting"
+    },
+    {
+      "id": "programs-activity-trips",
+      "description": "Children gathered around planting a small tree.",
+      "imageUrl": "https://images.unsplash.com/photo-1460753311952-cf4606955685?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMG5hdHVyZXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children nature"
+    },
+    {
+      "id": "programs-activity-nature",
+      "description": "Kids in safety goggles looking at a colorful science experiment in a beaker.",
+      "imageUrl": "https://images.unsplash.com/photo-1758685734030-a31d96462eec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwc2NpZW5jZXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "kids science"
+    },
+    {
+      "id": "programs-activity-music",
+      "description": "Happy children in small graduation caps and gowns.",
+      "imageUrl": "https://images.unsplash.com/photo-1628198661856-102874fb9d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGdyYWR1YXRpb258ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children graduation"
+    },
+    {
+      "id": "programs-activity-playground",
+      "description": "Happy children playing with building blocks in a bright classroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1588072432836-e10032774350?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZHJlbiUyMHNjaG9vbHxlbnwwfHx8fDE3NjM4NzA1Nzl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children school"
+    },
+    {
+      "id": "programs-activity-drama",
+      "description": "Portrait of a young female teacher in an art room.",
+      "imageUrl": "https://images.unsplash.com/photo-1752649936912-fe4c451a1d65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFjaGVyJTIwYXJ0fGVufDB8fHx8MTc2Mzg5ODU5MHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "teacher art"
+    },
+    {
+      "id": "programs-activity-skating",
+      "description": "A toddler playing with colorful wooden blocks on a soft rug.",
+      "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2RkbGVyJTIwcGxheWluZ3xlbnwwfHx8fDE3NjM4MzkxODF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "toddler playing"
+    },
+    {
+      "id": "programs-activity-chilling",
+      "description": "A diverse group of children holding hands in a circle on a grassy field.",
+      "imageUrl": "https://images.unsplash.com/photo-1527091481625-e3d4db4fc3fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMGRpdmVyc2l0eXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children diversity"
+    },
+    {
+      "id": "programs-quote",
+      "description": "A smiling family taking a photo with a child in a graduation gown.",
+      "imageUrl": "https://images.unsplash.com/photo-1558023187-9293b22416b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjeWJlcnNlY3VyaXR5fGVufDB8fHx8MTc2Mzg3NjU2OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "family celebration"
+    },
+    {
+      "id": "journey-club-art",
+      "description": "Children drawing with colorful pencils.",
+      "imageUrl": "https://images.unsplash.com/photo-1506729623306-b5a939d88994?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMGRyYXdpbmd8ZW58MHx8fHwxNzYzOTExMjE0fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children drawing"
+    },
+    {
+      "id": "journey-club-music",
+      "description": "A child playing a small colorful xylophone.",
+      "imageUrl": "https://images.unsplash.com/photo-1541692348507-73d131929d59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZCUyMHh5bG9waG9uZXxlbnwwfHx8fDE3NjM5MTEyMTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "child xylophone"
+    },
+    {
+      "id": "journey-club-science",
+      "description": "Kids in safety goggles looking at a colorful science experiment in a beaker.",
+      "imageUrl": "https://images.unsplash.com/photo-1758685734030-a31d96462eec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwc2NpZW5jZXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "kids science"
+    },
+    {
+      "id": "journey-club-sports",
+      "description": "Children in jerseys running on a sports field.",
+      "imageUrl": "https://images.unsplash.com/photo-1582298519515-288277a41b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwc3BvcnRzfGVufDB8fHx8MTc2MzkxMTIxNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "kids sports"
+    },
+    {
+      "id": "journey-academic-language",
+      "description": "A diverse group of pre-k children sitting in a circle listening to a teacher read a book.",
+      "imageUrl": "https://images.unsplash.com/photo-1554721299-e0b8aa7666ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwcmVhZGluZ3xlbnwwfHx8fDE3NjM4NDI1MjB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "kids reading"
+    },
+    {
+      "id": "journey-academic-math",
+      "description": "Colorful wooden numbers and counting blocks on a table.",
+      "imageUrl": "https://images.unsplash.com/photo-1525909002-15104b20216i?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYXRoJTIwYmxvY2tzfGVufDB8fHx8MTc2MzkxMTIxNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "math blocks"
+    },
+    {
+      "id": "journey-academic-science",
+      "description": "Kids in safety goggles looking at a colorful science experiment in a beaker.",
+      "imageUrl": "https://images.unsplash.com/photo-1758685734030-a31d96462eec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxraWRzJTIwc2NpZW5jZXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "kids science"
+    },
+    {
+      "id": "journey-academic-social",
+      "description": "Happy children playing with building blocks in a bright classroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1588072432836-e10032774350?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZHJlbiUyMHNjaG9vbHxlbnwwfHx8fDE3NjM4NzA1Nzl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children school"
+    },
+    {
+      "id": "journey-graduation-day",
+      "description": "Happy children in small graduation caps and gowns.",
+      "imageUrl": "https://images.unsplash.com/photo-1628198661856-102874fb9d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGdyYWR1YXRpb258ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children graduation"
+    },
+    {
+      "id": "journey-graduation-caps",
+      "description": "Close up of a child's hands decorating a graduation cap with glitter and stickers.",
+      "imageUrl": "https://images.unsplash.com/photo-1628198661856-102874fb9d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGdyYWR1YXRpb258ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "graduation cap"
+    },
+    {
+      "id": "journey-graduation-performance",
+      "description": "A group of children on a small stage singing.",
+      "imageUrl": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMHNpbmdpbmd8ZW58MHx8fHwxNzYzOTExMjE0fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children singing"
+    },
+    {
       "id": "journey-graduation-family",
       "description": "A smiling family taking a photo with a child in a graduation gown.",
-      "imageUrl": "https://images.unsplash.com/photo-1558023187-9293b22416b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjeWJlcnNlY3VyaXR5fGVufDB8fHx8MTc2Mzg3NjU2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1558023187-9293b22416b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjeWJlcnNlY3VyaXR5fGVufDB8fHx8MTc2Mzg3NjU2OXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "family celebration"
+    },
+    {
+      "id": "gallery-header",
+      "description": "Children laughing together on a playground.",
+      "imageUrl": "https://images.unsplash.com/photo-1576718878265-d78453e0d68f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZHJlbiUyMHBsYXlpbmd8ZW58MHx8fHwxNzY0NTg3MDIxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "children playing"
     },
     {
       "id": "gallery-1",
       "description": "Children laughing together on a playground.",
-      "imageUrl": "https://images.unsplash.com/photo-1576718878265-d78453e0d68f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZHJlbiUyMHBsYXlpbmd8ZW58MHx8fHwxNzY0NTg3MDIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1576718878265-d78453e0d68f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZHJlbiUyMHBsYXlpbmd8ZW58MHx8fHwxNzY0NTg3MDIxfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "children playing"
     },
     {
       "id": "gallery-2",
       "description": "A teacher and a young student pointing at a globe.",
-      "imageUrl": "https://images.unsplash.com/photo-1517431969804-33a7624c44a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFjaGVyJTIwaGVscGluZ3xlbnwwfHx8fDE3NjQ1ODY5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1517431969804-33a7624c44a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFjaGVyJTIwaGVscGluZ3xlbnwwfHx8fDE3NjQ1ODY5OTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "teacher helping"
     },
     {
       "id": "gallery-3",
       "description": "Close-up of a child's hands covered in colorful paint.",
-      "imageUrl": "https://images.unsplash.com/photo-1505015390928-f9e55218544f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZCUyMHBhaW50fGVufDB8fHx8fDE3NjQ1ODY5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1505015390928-f9e55218544f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZCUyMHBhaW50fGVufDB8fHx8MTc2Q1ODY5OTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "child paint"
     },
     {
       "id": "gallery-4",
       "description": "Children dressed in costumes for a school play.",
-      "imageUrl": "https://images.unsplash.com/photo-1549421255-73c88b6a3251?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMGRyYW1hfGVufDB8fHx8fDE3NjQ1ODY5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1549421255-73c88b6a3251?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMGRyYW1hfGVufDB8fHx8fDE3NjQ1ODY5OTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "children drama"
     },
     {
       "id": "gallery-5",
       "description": "A child carefully stacking wooden blocks into a tall tower.",
-      "imageUrl": "https://images.unsplash.com/photo-1455099313880-3c3e5336d39d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZCUyMGJsb2Nrc3xlbnwwfHx8fDE3NjQ1ODY5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1455099313880-3c3e5336d39d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZCUyMGJsb2Nrc3xlbnwwfHx8fDE3NjQ1ODY5OTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "child blocks"
     },
     {
       "id": "gallery-6",
       "description": "A group of children sitting on a colorful parachute during a gym class.",
-      "imageUrl": "https://images.unsplash.com/photo-1541282054-386143431a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGd5bXxlbnwwfHx8fDE3NjQ1ODY5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1541282054-386143431a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGd5bXxlbnwwfHx8fDE3NjQ1ODY5OTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "children gym"
     },
     {
       "id": "gallery-7",
       "description": "A child looking at a butterfly on a flower with a magnifying glass.",
-      "imageUrl": "https://images.unsplash.com/photo-1532094206223-44f47918898b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMGV4cGxvcmV8ZW58MHx8fHwxNzY0NTg3MDQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1532094206223-44f47918898b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMGV4cGxvcmV8ZW58MHx8fHwxNzY0NTg3MDQ1fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "child explore"
     },
     {
       "id": "gallery-8",
       "description": "Two children sharing a book and smiling.",
-      "imageUrl": "https://images.unsplash.com/photo-1628198661856-102874fb9d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGdyYWR1YXRpb258ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1628198661856-102874fb9d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGdyYWR1YXRpb258ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "children sharing"
     },
     {
       "id": "gallery-9",
       "description": "A child wearing headphones and concentrating on a tablet.",
-      "imageUrl": "https://images.unsplash.com/photo-1588072432836-e10032774350?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZHJlbiUyMHNjaG9vbHxlbnwwfHx8fDE3NjM4NzA1Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1588072432836-e10032774350?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZHJlbiUyMHNjaG9vbHxlbnwwfHx8fDE3NjM4NzA1Nzl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "child learning"
     },
     {
       "id": "gallery-10",
       "description": "Children running happily in a field of flowers.",
-      "imageUrl": "https://images.unsplash.com/photo-1506729623306-b5a939d88994?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMGRyYXdpbmd8ZW58MHx8fHwxNzYzOTExMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1506729623306-b5a939d88994?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMGRyYXdpbmd8ZW58MHx8fHwxNzYzOTExMjE0fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "children running"
     },
     {
       "id": "gallery-11",
       "description": "A child watering a plant in the school garden.",
-      "imageUrl": "https://images.unsplash.com/photo-1460753311952-cf4606955685?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMG5hdHVyZXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1460753311952-cf4606955685?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMG5hdHVyZXxlbnwwfHx8fDE3NjM4OTg1OTB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "child gardening"
     },
     {
       "id": "gallery-12",
       "description": "A teacher giving a high-five to a student.",
-      "imageUrl": "https://images.unsplash.com/photo-1517431969804-33a7624c44a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFjaGVyJTIwaGVscGluZ3xlbnwwfHx8fDE3NjQ1ODY5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1517431969804-33a7624c44a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFjaGVyJTIwaGVscGluZ3xlbnwwfHx8fDE3NjQ1ODY5OTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "teacher student"
+    },
+    {
+      "id": "contact-info",
+      "description": "A bright and welcoming front desk area of a school.",
+      "imageUrl": "https://images.unsplash.com/photo-1753546466496-d2d8a819f61a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2Nob29sJTIwcmVjZXB0aW9ufGVufDB8fHx8MTc2Mzg5ODU5MHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "school reception"
     }
   ]
 }

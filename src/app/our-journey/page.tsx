@@ -21,7 +21,7 @@ const clubs = [
     title: 'Science Club',
     description: "Fun experiments and nature exploration spark curiosity about the world around us.",
     icon: <Beaker className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find((img) => img.id === 'journey-3'),
+    image: PlaceHolderImages.find((img) => img.id === 'journey-club-science'),
   },
   {
     title: 'Sports Club',
@@ -36,7 +36,7 @@ const academics = [
         title: 'Language Development',
         description: 'Phonics, vocabulary, and storytelling build strong communication foundations.',
         icon: <BookOpen className="h-8 w-8 text-primary" />,
-        image: PlaceHolderImages.find((img) => img.id === 'program-prek'),
+        image: PlaceHolderImages.find((img) => img.id === 'journey-academic-language'),
     },
     {
         title: 'Math Readiness',
@@ -48,13 +48,13 @@ const academics = [
         title: 'Science Exploration',
         description: 'Simple experiments introduce scientific thinking and observation skills.',
         icon: <Beaker className="h-8 w-8 text-primary" />,
-        image: PlaceHolderImages.find((img) => img.id === 'journey-3'),
+        image: PlaceHolderImages.find((img) => img.id === 'journey-academic-science'),
     },
     {
         title: 'Social Development',
         description: 'Group activities teach cooperation, sharing, and emotional intelligence.',
         icon: <Users className="h-8 w-8 text-primary" />,
-        image: PlaceHolderImages.find((img) => img.id === 'home-hero'),
+        image: PlaceHolderImages.find((img) => img.id === 'journey-academic-social'),
     },
 ]
 
@@ -63,7 +63,7 @@ const graduations = [
         title: 'Graduation Day',
         description: 'A special ceremony marking the completion of kindergarten.',
         icon: <GraduationCap className="h-8 w-8 text-primary" />,
-        image: PlaceHolderImages.find((img) => img.id === 'journey-4'),
+        image: PlaceHolderImages.find((img) => img.id === 'journey-graduation-day'),
     },
     {
         title: 'Cap Decorating',

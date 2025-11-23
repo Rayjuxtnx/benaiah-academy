@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -280,7 +281,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="relative text-accent-foreground">
+      <section className="relative text-white">
         {quoteImage && (
           <Image
             src={quoteImage.imageUrl}

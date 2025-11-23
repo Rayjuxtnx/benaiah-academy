@@ -170,6 +170,45 @@ export default function Home() {
 
       <AnimatedMissionVision />
 
+       <section id="programs-overview" className="bg-card">
+        <div className="container px-4 md:px-6">
+          <div className="text-center space-y-4">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">Our Programs</h2>
+            <p className="max-w-2xl mx-auto text-muted-foreground md:text-lg">
+              We offer a range of programs tailored to different age groups, each designed to foster growth and curiosity in a supportive setting.
+            </p>
+          </div>
+          <div className="mx-auto mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {programs.map((program) => (
+              <Link href="/programs" key={program.name}>
+                <Card className="overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl h-full">
+                  {program.image && (
+                    <Image
+                      src={program.image.imageUrl}
+                      alt={program.image.description}
+                      width={600}
+                      height={400}
+                      className="aspect-video w-full object-cover"
+                      data-ai-hint={program.image.imageHint}
+                    />
+                  )}
+                  <CardHeader>
+                    <CardTitle>{program.name}</CardTitle>
+                    <CardDescription>{program.age}</CardDescription>
+                  </CardHeader>
+                </Card>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <Button asChild className="transition-transform hover:scale-105">
+              <Link href="/our-journey">Discover Our Journey <ArrowRight className="ml-2" /></Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+
       <section id="nurturing" className="bg-background relative">
          {nurturingImage && (
           <Image
@@ -227,5 +266,3 @@ export default function Home() {
     </div>
   );
 }
-
-    

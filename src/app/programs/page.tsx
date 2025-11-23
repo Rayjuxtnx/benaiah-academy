@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Paintbrush, Bus, Leaf, Music, Wind, Puzzle, Users, Award } from 'lucide-react';
+import { Paintbrush, Bus, Leaf, Music, Wind, Puzzle, Users, Award, ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 const funActivities = [
     { title: 'Playful Learning', description: 'Joyful activities that make learning an adventure.' },
@@ -80,7 +82,7 @@ export default function ProgramsPage() {
         )}
         <div className="absolute inset-0 bg-primary/80" />
         <div className="container px-4 md:px-6 relative">
-          <div className="mx-auto max-w-3xl space-y-2">
+          <div className="mx-auto max-w-3xl space-y-2 py-12 md:py-24 lg:py-32">
             <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-primary-foreground">
               Our Programs
             </h1>
@@ -132,6 +134,11 @@ export default function ProgramsPage() {
               </div>
             ))}
           </div>
+           <div className="text-center mt-12">
+            <Button asChild className="transition-transform hover:scale-105">
+              <Link href="/contact">Enroll Today <ArrowRight className="ml-2" /></Link>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -146,8 +153,8 @@ export default function ProgramsPage() {
           />
         )}
         <div className="absolute inset-0 bg-primary/80" />
-        <div className="container px-4 md:px-6 relative">
-          <div className="mx-auto max-w-3xl text-center space-y-4">
+        <div className="container px-4 md:px-6 relative text-white">
+          <div className="mx-auto max-w-3xl text-center space-y-4 py-12 md:py-24 lg:py-32">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">Let Them Breathe the World</h2>
             <p className="text-lg">
               The great outdoors is more than just fresh air and open skies—it's a living classroom for growing minds. At Benaiah Academy, we believe that nature awakens curiosity, fosters independence, and builds strength in every child. Whether they're running, exploring, or simply feeling the sun on their skin, children discover who they are best when they're free to move, play, and dream outside.

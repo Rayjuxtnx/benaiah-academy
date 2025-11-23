@@ -12,7 +12,10 @@ import {
   Car,
   Star,
   Quote,
+  ArrowRight,
 } from 'lucide-react';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 
 const testimonials = [
   {
@@ -83,7 +86,7 @@ export default function AboutPage() {
         )}
         <div className="absolute inset-0 bg-primary/80" />
         <div className="container px-4 md:px-6 relative">
-          <div className="mx-auto max-w-3xl space-y-2">
+          <div className="mx-auto max-w-3xl space-y-2 py-12 md:py-24 lg:py-32">
             <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-primary-foreground">
               About Benaiah Academy
             </h1>
@@ -230,6 +233,9 @@ export default function AboutPage() {
                 Our Facilities
               </h2>
             </div>
+             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Our campus is designed to be a safe, engaging, and welcoming space for all our learners.
+            </p>
           </div>
           <div className="mx-auto mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
             <Card>
@@ -254,6 +260,11 @@ export default function AboutPage() {
                 </p>
               </CardContent>
             </Card>
+          </div>
+           <div className="text-center mt-12">
+            <Button asChild variant="outline" className="transition-transform hover:scale-105">
+                <Link href="/gallery">View Our Gallery <ArrowRight className="ml-2" /></Link>
+            </Button>
           </div>
         </div>
       </section>
@@ -292,8 +303,8 @@ export default function AboutPage() {
           />
         )}
         <div className="absolute inset-0 bg-primary/80" />
-        <div className="container px-4 md:px-6 relative">
-          <div className="mx-auto max-w-3xl text-center space-y-4">
+        <div className="container px-4 md:px-6 relative text-white">
+          <div className="mx-auto max-w-3xl text-center space-y-4 py-12 md:py-24 lg:py-32">
             <Quote className="mx-auto h-12 w-12" />
             <blockquote className="text-xl italic">
               "Every child deserves a champion—an adult who will never give up on them, who understands the power of connection and insists that they become the best that they can possibly be."
@@ -305,5 +316,3 @@ export default function AboutPage() {
     </div>
   );
 }
-
-    

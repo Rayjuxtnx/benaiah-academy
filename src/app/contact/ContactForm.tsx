@@ -16,7 +16,6 @@ import {
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { sendContactMessage } from './actions';
 
 const formSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters.'),
@@ -40,16 +39,26 @@ export default function ContactForm() {
   });
 
   async function onSubmit(values: FormData) {
-    const result = await sendContactMessage(values);
-
-    if (result.success) {
-      toast({
-        title: 'Message Sent! 🎉',
-        description: "We've received your message and will get back to you shortly.",
+    try {
+      const response = await fetch('https://formspree.io/f/myzvaglw', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(values)
       });
-      form.reset();
-    } else {
-      toast({
+
+      if (response.ok) {
+        toast({
+          title: 'Message Sent! 🎉',
+          description: "We've received your message and will get back to you shortly.",
+        });
+        form.reset();
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+       toast({
         variant: 'destructive',
         title: 'Uh oh! Something went wrong.',
         description: 'There was a problem sending your message. Please try again.',

@@ -167,7 +167,12 @@ export default function AboutPage() {
           <div className="mx-auto mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <Card className="text-center">
               <CardContent className="flex flex-col items-center p-6">
-                 {headTeacherImg && <AvatarImage src={headTeacherImg.imageUrl} alt={'Headteacher'} className="h-24 w-24 mb-4 rounded-full object-cover" data-ai-hint={headTeacherImg.imageHint}/>}
+                 {headTeacherImg && (
+                  <Avatar className="h-24 w-24 mb-4">
+                    <AvatarImage src={headTeacherImg.imageUrl} alt={'Headteacher'} data-ai-hint={headTeacherImg.imageHint}/>
+                    <AvatarFallback>TG</AvatarFallback>
+                  </Avatar>
+                )}
                 <h3 className="font-headline text-xl font-bold">Tr. Gedion</h3>
                 <p className="text-primary">Headteacher</p>
                 <p className="mt-2 text-sm text-muted-foreground">"Your passion and dedication inspire our learners daily. Benaiah Academy is proud to have you as a model of excellence in education."</p>
@@ -175,14 +180,24 @@ export default function AboutPage() {
             </Card>
             <Card className="text-center">
               <CardContent className="flex flex-col items-center p-6">
-                {teachingStaffImg && <AvatarImage src={teachingStaffImg.imageUrl} alt={'Teaching Staff'} className="h-24 w-24 mb-4 rounded-full object-cover" data-ai-hint={teachingStaffImg.imageHint}/>}
+                {teachingStaffImg && (
+                  <Avatar className="h-24 w-24 mb-4">
+                    <AvatarImage src={teachingStaffImg.imageUrl} alt={'Teaching Staff'} data-ai-hint={teachingStaffImg.imageHint}/>
+                    <AvatarFallback>TS</AvatarFallback>
+                  </Avatar>
+                )}
                 <h3 className="font-headline text-xl font-bold">Teaching Staff</h3>
                 <p className="text-primary">Passionate educators nurturing young minds</p>
               </CardContent>
             </Card>
             <Card className="text-center">
               <CardContent className="flex flex-col items-center p-6">
-                 {nonTeachingStaffImg && <AvatarImage src={nonTeachingStaffImg.imageUrl} alt={'Non-Teaching Staff'} className="h-24 w-24 mb-4 rounded-full object-cover" data-ai-hint={nonTeachingStaffImg.imageHint}/>}
+                 {nonTeachingStaffImg && (
+                  <Avatar className="h-24 w-24 mb-4">
+                    <AvatarImage src={nonTeachingStaffImg.imageUrl} alt={'Non-Teaching Staff'} data-ai-hint={nonTeachingStaffImg.imageHint}/>
+                    <AvatarFallback>NTS</AvatarFallback>
+                  </Avatar>
+                )}
                 <h3 className="font-headline text-xl font-bold">Non-Teaching Staff</h3>
                 <p className="text-primary">Supporting our school community every day</p>
               </CardContent>

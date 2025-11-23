@@ -45,8 +45,8 @@ export default function ContactPage() {
                       <p className="text-muted-foreground">Machakos Town, Kenya</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-4">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary">
+                  <div className="flex items-start gap-4 rounded-lg border bg-card p-4 shadow-sm transition-shadow hover:shadow-md">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary flex-shrink-0">
                       <Mail className="h-6 w-6" />
                     </div>
                     <div>
@@ -60,8 +60,8 @@ export default function ContactPage() {
                       <p className="text-sm text-muted-foreground">We reply within 24 hours</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-4">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary">
+                  <div className="flex items-start gap-4 rounded-lg border bg-card p-4 shadow-sm transition-shadow hover:shadow-md">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary flex-shrink-0">
                       <Phone className="h-6 w-6" />
                     </div>
                     <div>
@@ -100,5 +100,3 @@ export default function ContactPage() {
     </>
   );
 }
-
-    

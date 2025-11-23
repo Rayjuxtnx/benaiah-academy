@@ -204,13 +204,13 @@
       {
         "id": "academic-writing",
         "description": "A child's hand holding a pencil, learning to write letters on paper.",
-        "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZCUyMHdyaXRpbmd8ZW58MHx8fHwxNzY0NTk5MTI4fDA&ixlib-rb-4.1.0&q=80&w=1080",
+        "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZCUyMHdyaXRpbmd8ZW58MHx8fHwxNzY0NTk5MTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageHint": "child writing"
       },
       {
         "id": "academic-social",
         "description": "Happy children playing with building blocks in a bright classroom.",
-        "imageUrl": "https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMHNjaG9vbHxlbnwwfHx8fDE3NjM4NzA1Nzl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+        "imageUrl": "https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMHNjaG9vbHxlbnwwfHx8fDE3NjM4NzA1Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageHint": "children school"
       },
       {
@@ -234,7 +234,7 @@
       {
         "id": "graduation-family",
         "description": "A smiling family taking a photo with a child in a graduation gown.",
-        "imageUrl": "https://images.unsplash.com/photo-1628198661856-102874fb9d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGdyYWR1YXRpb258ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+        "imageUrl": "https://images.unsplash.com/photo-1628198661856-102874fb9d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGdyYWR1YXRpb258ZW58MHx8fHwxNzYzODk4NTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageHint": "family celebration"
       }
     ],

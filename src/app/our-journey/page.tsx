@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-import { Paintbrush, Music, Beaker, Trophy, BookOpen, Calculator, GraduationCap, Users, Pencil } from 'lucide-react';
+import { Paintbrush, Music, Beaker, Trophy, BookOpen, Calculator, GraduationCap, Users, Pencil, Pen } from 'lucide-react';
 
 const clubs = [
   {
@@ -44,15 +44,15 @@ const academics = [
         icon: <Calculator className="h-8 w-8 text-primary" />,
         image: PlaceHolderImages.find((img) => img.id === 'journey-academic-math'),
     },
-    {
-        title: 'Science Exploration',
-        description: 'Simple experiments introduce scientific thinking and observation skills.',
-        icon: <Beaker className="h-8 w-8 text-primary" />,
-        image: PlaceHolderImages.find((img) => img.id === 'journey-academic-science'),
+     {
+        title: 'Writing Practice',
+        description: 'Developing fine motor skills for writing.',
+        icon: <Pen className="h-8 w-8 text-primary" />,
+        image: PlaceHolderImages.find((img) => img.id === 'journey-academic-writing'),
     },
     {
-        title: 'Social Development',
-        description: 'Group activities teach cooperation, sharing, and emotional intelligence.',
+        title: 'Learning Through Play',
+        description: 'Structured play builds social and cognitive skills.',
         icon: <Users className="h-8 w-8 text-primary" />,
         image: PlaceHolderImages.find((img) => img.id === 'journey-academic-social'),
     },

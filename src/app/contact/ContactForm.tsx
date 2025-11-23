@@ -118,7 +118,7 @@ export default function ContactForm() {
         />
         <Button
           type="submit"
-          className="w-full transition-transform hover:scale-105"
+          className="w-full transition-all duration-200 ease-in-out hover:-translate-y-1 hover:shadow-lg shadow-md"
           disabled={form.formState.isSubmitting}
         >
           {form.formState.isSubmitting && (

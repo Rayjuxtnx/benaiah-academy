@@ -3,9 +3,11 @@ import Link from 'next/link';
 import {
   ArrowRight,
   BookOpenText,
+  Heart,
   Smile,
   Sparkles,
   Star,
+  Target,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -108,10 +110,13 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto space-y-4">
               <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-                Welcome to Benaiah Academy
+                Benaiah Academy
               </h1>
               <p className="text-lg md:text-xl">
-                A happy place for little learners to grow, play, and discover.
+                "A special place for every child to learn and grow."
+              </p>
+              <p className="text-lg md:text-xl italic">
+                Benaiah is a symbol of strength, courage and tenacity...such is the generation of champs we aspire to bring forth.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
                 <Button asChild size="lg" className="transition-transform hover:scale-105">
@@ -131,122 +136,51 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="why-us" className="bg-background">
+      <section id="welcome" className="bg-background">
         <div className="container px-4 md:px-6">
-          <div className="mx-auto grid max-w-5xl items-center gap-6 lg:grid-cols-3 lg:gap-12">
-            {features.map((feature) => (
-              <div
-                key={feature.title}
-                className="flex flex-col items-center text-center"
-              >
-                {feature.icon}
-                <h3 className="mt-4 mb-2 font-headline text-2xl font-bold">
-                  {feature.title}
-                </h3>
-                <p className="text-muted-foreground">{feature.description}</p>
-              </div>
-            ))}
+          <div className="mx-auto max-w-3xl text-center space-y-4">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
+              Welcome to Our School
+            </h2>
+            <p className="text-muted-foreground md:text-xl/relaxed">
+              Benaiah Academy is a Christ-centered kindergarten dedicated to providing a nurturing environment where children can grow spiritually, academically, socially, and physically. Located in the heart of Machakos, we offer quality early childhood education with a focus on Christian values and holistic development.
+            </p>
           </div>
         </div>
       </section>
 
-      <section id="programs" className="bg-card">
+      <section id="mission-vision" className="bg-card">
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
-              <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">
-                Our Programs
-              </h2>
-              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                We offer a range of programs tailored to different age groups,
-                each designed to spark curiosity and a love for learning.
+          <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-start">
+            <div className="flex flex-col items-center text-center space-y-4">
+              <Target className="h-12 w-12 text-primary" />
+              <h3 className="font-headline text-2xl font-bold">Our Mission</h3>
+              <p className="text-muted-foreground">
+                To provide a safe, loving, and stimulating Christian environment that fosters each child's God-given potential through quality education, biblical teachings, and creative learning experiences that prepare them for life.
+              </p>
+            </div>
+            <div className="flex flex-col items-center text-center space-y-4">
+              <Star className="h-12 w-12 text-primary" />
+              <h3 className="font-headline text-2xl font-bold">Our Vision</h3>
+              <p className="text-muted-foreground">
+                To be the leading Christian kindergarten in Machakos County, recognized for developing well-rounded children who excel in character, learning, and service to God and community.
               </p>
             </div>
           </div>
-          <div className="mx-auto mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {programs.map((program) => (
-              <Card
-                key={program.name}
-                className="overflow-hidden transition-transform hover:scale-105 hover:shadow-xl"
-              >
-                {program.image && (
-                  <Image
-                    src={program.image.imageUrl}
-                    alt={program.image.description}
-                    width={600}
-                    height={400}
-                    className="aspect-[3/2] w-full object-cover"
-                    data-ai-hint={program.image.imageHint}
-                  />
-                )}
-                <CardHeader>
-                  <CardTitle className="font-headline">{program.name}</CardTitle>
-                  <CardDescription>{program.age}</CardDescription>
-                </CardHeader>
-                <CardFooter>
-                  <Button asChild variant="link" className="p-0 h-auto">
-                    <Link href="/programs">
-                      Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
-                </CardFooter>
-              </Card>
-            ))}
-          </div>
         </div>
       </section>
 
-      <section id="testimonials" className="bg-background">
+      <section id="nurturing" className="bg-background">
         <div className="container px-4 md:px-6">
-          <h2 className="text-center font-headline text-3xl font-bold tracking-tighter sm:text-5xl">
-            What Parents Are Saying
-          </h2>
-          <Carousel
-            opts={{
-              align: 'start',
-              loop: true,
-            }}
-            className="mx-auto mt-12 w-full max-w-xs sm:max-w-2xl lg:max-w-4xl"
-          >
-            <CarouselContent>
-              {testimonials.map((testimonial, index) => (
-                <CarouselItem
-                  key={index}
-                  className="sm:basis-1/2 lg:basis-1/3"
-                >
-                  <div className="p-1 h-full">
-                    <Card className="h-full flex flex-col">
-                      <CardHeader className="flex-row items-center gap-4">
-                        <Avatar>
-                          <AvatarFallback>{testimonial.avatar}</AvatarFallback>
-                        </Avatar>
-                        <div>
-                          <CardTitle>{testimonial.name}</CardTitle>
-                          <div className="flex gap-0.5">
-                            {Array(testimonial.rating)
-                              .fill(0)
-                              .map((_, i) => (
-                                <Star
-                                  key={i}
-                                  className="h-4 w-4 fill-primary text-primary"
-                                />
-                              ))}
-                          </div>
-                        </div>
-                      </CardHeader>
-                      <CardContent className="flex-grow">
-                        <p className="text-muted-foreground">
-                          "{testimonial.text}"
-                        </p>
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
-          </Carousel>
+          <div className="mx-auto max-w-3xl text-center space-y-4">
+            <Heart className="mx-auto h-12 w-12 text-primary"/>
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
+              Nurturing
+            </h2>
+            <p className="text-muted-foreground md:text-lg/relaxed">
+              At Benaiah Academy, we believe that children have neither past nor future—they live fully in the present, exploring, discovering, and growing with joy. It is our calling to nurture this precious moment, because in their present lies the promise of a brighter tomorrow.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -257,8 +191,7 @@ export default function Home() {
               Join the Benaiah Academy Family
             </h2>
             <p className="text-lg">
-              Ready to give your child an unforgettable start? Schedule a tour
-              or contact us to learn more about our enrollment process.
+              Welcome to Benaiah Academy—where every child's journey begins with purpose and hope. Ready to give your child an unforgettable start? Schedule a tour or contact us to learn more about our enrollment process.
             </p>
             <Button
               asChild

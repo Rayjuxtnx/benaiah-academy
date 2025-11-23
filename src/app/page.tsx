@@ -28,6 +28,7 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { AnimatedMissionVision } from '@/components/layout/AnimatedMissionVision';
 
 const features = [
   {
@@ -149,26 +150,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="mission-vision" className="bg-card">
-        <div className="container px-4 md:px-6">
-          <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-start">
-            <div className="flex flex-col items-center text-center space-y-4">
-              <Target className="h-12 w-12 text-primary" />
-              <h3 className="font-headline text-2xl font-bold">Our Mission</h3>
-              <p className="text-muted-foreground">
-                To provide a safe, loving, and stimulating Christian environment that fosters each child's God-given potential through quality education, biblical teachings, and creative learning experiences that prepare them for life.
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center space-y-4">
-              <Star className="h-12 w-12 text-primary" />
-              <h3 className="font-headline text-2xl font-bold">Our Vision</h3>
-              <p className="text-muted-foreground">
-                To be the leading Christian kindergarten in Machakos County, recognized for developing well-rounded children who excel in character, learning, and service to God and community.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <AnimatedMissionVision />
 
       <section id="nurturing" className="bg-background">
         <div className="container px-4 md:px-6">

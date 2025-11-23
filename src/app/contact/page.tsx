@@ -39,8 +39,9 @@ export default function ContactPage() {
                       <MapPin className="h-6 w-6" />
                     </div>
                     <div>
-                      <h3 className="font-semibold">Our Address</h3>
-                      <p className="text-muted-foreground">123 Blossom Lane, Sunnyville, FL 12345</p>
+                      <h3 className="font-semibold">Visit Us</h3>
+                      <p className="text-muted-foreground">Benaiah Academy Campus</p>
+                      <p className="text-muted-foreground">Machakos Town, Kenya</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -49,9 +50,13 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold">Email Us</h3>
-                      <a href="mailto:contact@benaiah.edu" className="text-muted-foreground hover:text-primary">
-                        contact@benaiah.edu
+                      <a href="mailto:benaiahkindergarten@gmail.com" className="block text-muted-foreground hover:text-primary">
+                        benaiahkindergarten@gmail.com
                       </a>
+                       <a href="mailto:admissions@benaiah.ac.ke" className="block text-muted-foreground hover:text-primary">
+                        admissions@benaiah.ac.ke
+                      </a>
+                      <p className="text-sm text-muted-foreground">We reply within 24 hours</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -60,9 +65,10 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold">Call Us</h3>
-                      <a href="tel:+11234567890" className="text-muted-foreground hover:text-primary">
-                        (123) 456-7890
+                      <a href="tel:0110003397" className="text-muted-foreground hover:text-primary">
+                        0110 003397
                       </a>
+                       <p className="text-sm text-muted-foreground">Office Hours: 7:30 AM - 5:00pm</p>
                     </div>
                   </div>
                 </div>

@@ -27,10 +27,9 @@ export function Footer() {
              <div className="space-y-2">
               <h4 className="font-headline font-semibold">Contact</h4>
                <ul className="space-y-1 text-sm text-muted-foreground">
-                 <li>123 Blossom Lane</li>
-                 <li>Sunnyville, FL 12345</li>
-                 <li>contact@benaiah.edu</li>
-                 <li>(123) 456-7890</li>
+                 <li>Machakos Town, Kenya</li>
+                 <li>benaiahkindergarten@gmail.com</li>
+                 <li>0110 003397</li>
                </ul>
             </div>
             <div className="space-y-2">

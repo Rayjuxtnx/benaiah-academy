@@ -31,7 +31,7 @@ export default function ContactPage() {
       <section>
         <div className="container px-4 md:px-6">
           <Card className="p-6 sm:p-8 lg:p-12">
-            <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
+            <div className="grid gap-12 md:grid-cols-2 lg:gap-16">
               <div className="space-y-8">
                 <div>
                   <h2 className="font-headline text-3xl font-bold">Contact Information</h2>

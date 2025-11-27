@@ -38,7 +38,7 @@ export default function ProgramsPage() {
     },
     {
       title: 'Celebrating Through Music',
-      description: 'Our regular music festivals bring students together to express creativity, build confidence, and enjoy the joy of rhythm and melody in a vibrant community setting.',
+      description: 'Music and poetry allow learners to express their emotions, creativity, and identity in powerful ways. Through these arts, we build confidence, discipline, and teamwork, helping each child discover their unique voice. I am proud of the dedication our learners show, and their journey to the Nationals is proof of what passion and hard work can achieve. We will continue nurturing talent and celebrating the beauty of artistic expression.',
       icon: <Music className="h-8 w-8 text-primary" />,
       image: programImages.find((img) => img.id === 'activity-music'),
     },
@@ -53,12 +53,36 @@ export default function ProgramsPage() {
       description: 'We frequently participate in drama festivals, giving our students the chance to showcase their creativity, build confidence, and express themselves through captivating performances.',
       icon: <Users className="h-8 w-8 text-primary" />,
       image: programImages.find((img) => img.id === 'activity-drama'),
-    },
+     },
      {
-      title: 'Skating',
-      description: 'Skating sessions are a regular part of our activities, helping students develop balance, coordination, and have fun while staying active.',
+      title: 'Soccer' ,
+      description: 'football is more than a sport, its a pathway to discipline, determination and lifelong opportunity. At Pro Soccer, we focus on shaping players who are skilled on the field and strong in character, Every child deserve a chance to discover their talent, train with purpose and rise with confidence, i am honoured to guide this vision and help nurture the next generation of champion.',
+      icon: <Users className="h-8 w-8 text-primary" />,
+      image: programImages.find((img)  => img.id === 'activity-soccer'),
+    },
+    {
+      title: 'Swimming' ,
+      description: 'Swimming teaches discipline, confidence, and resilience. In our program, every learner is encouraged to conquer their fears, develop strong skills, and enjoy the beauty of the sport. My mission is to ensure that every child feels supported, safe, and inspired as they grow in both ability and character.' ,
+      icon: <Users className="h-8 w-8 text-primary" />,
+      image: programImages.find((img)  => img.id === 'activity-Swimming'),
+    },
+    {
+      title: 'Debate' ,
+      description: 'Debate sharpens the mind, builds confidence, and empowers learners to express themselves with clarity and respect. Through every discussion and argument, we nurture critical thinkers who can analyze issues, communicate effectively, and lead with purpose. I am committed to guiding our learners as they grow into articulate, informed, and confident speakers..' ,
       icon: <Award className="h-8 w-8 text-primary" />,
-      image: programImages.find((img) => img.id === 'activity-skating'),
+      image: programImages.find((img)  => img.id === 'activity-Debate'),
+     },
+    {
+      title: 'Embrace Program' , 
+      description: 'we create moments that inspire hope, build friendships, and strengthen the spirit of community service' ,
+      icon: <Award className="h-8 w-8 text-primary" />,
+      image: programImages.find((img)  => img.id === 'activity-Embrace'),
+    },
+    {  
+      title: 'Skating' ,
+      description: 'Skating builds balance, courage, and creativity. It teaches learners to trust themselves, stay focused, and enjoy movement in a unique and exciting way. My goal is to guide every child to grow in confidence, master new skills, and discover the joy that skating brings..' ,
+      icon: <Award className="h-8 w-8 text-primary" />,
+      image: programImages.find((img)  => img.id === 'activity-Skating'),
     },
      {
       title: 'Just Chilling',
@@ -155,11 +179,13 @@ export default function ProgramsPage() {
         <div className="absolute inset-0 bg-primary/80" />
         <div className="container px-4 md:px-6 relative text-white">
           <div className="mx-auto max-w-3xl text-center space-y-4 py-12 md:py-24 lg:py-32">
-            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">Let Them Breathe the World</h2>
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">Love Embrace Program</h2>
             <p className="text-lg">
-              The great outdoors is more than just fresh air and open skies—it's a living classroom for growing minds. At Benaiah Academy, we believe that nature awakens curiosity, fosters independence, and builds strength in every child. Whether they're running, exploring, or simply feeling the sun on their skin, children discover who they are best when they're free to move, play, and dream outside.
+              The Love Embrace Program is a heartfelt outreach initiative dedicated to bringing hope, joy, and encouragement to vulnerable children—especially orphans within our community. Through organized visits, our learners and staff come together to share their time, resources, and compassion with these young ones.
+              We believe that meaningful acts of kindness shape not only the lives of those we help, but also the character of our learners. Each visit is an opportunity for them to understand the value of empathy, gratitude, and generosity. From sharing food, clothes, and essential items to spending quality time, playing, and listening, our goal is to remind every child that they are loved, valued, and never forgotten.
+              The Love Embrace Programme continues to grow as more learners, teachers, and partners join this mission of spreading warmth and making a real difference. Together.
             </p>
-             <p className="font-semibold">Let's raise a generation that grows with the ground beneath their feet and the sky as their limit.</p>
+             <p className="font-semibold">we create moments that inspire hope, build friendships, and strengthen the spirit of community service</p>
           </div>
         </div>
       </section>

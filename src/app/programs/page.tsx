@@ -73,7 +73,7 @@ export default function ProgramsPage() {
       image: programImages.find((img)  => img.id === 'activity-Debate'),
      },
     {
-      title: 'Embrace Program' , 
+      title: 'Love Embrace Program' , 
       description: 'we create moments that inspire hope, build friendships, and strengthen the spirit of community service' ,
       icon: <Award className="h-8 w-8 text-primary" />,
       image: programImages.find((img)  => img.id === 'activity-Embrace'),

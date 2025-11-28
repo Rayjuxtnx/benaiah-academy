@@ -94,9 +94,9 @@ export default function Home() {
       image: journeyPageImages.find((img) => img.id === 'graduation-family'),
     },
     {
-      name: 'Pre-Kindergarten',
-      age: '4 - 5 years',
-      image: journeyPageImages.find((img) => img.id === 'academic-language'),
+      name: 'Extra miles',
+      age: 'We are devoted to nurturing learners not just academically, but also in character and purpose—preparing them to rise and stand out in every area of life. At Benaiah Academy, every child is equipped to lead, conquer, and inspire.',
+      image: journeyPageImages.find((img) => img.id === 'academic-social'),
     },
   ];
 

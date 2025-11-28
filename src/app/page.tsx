@@ -89,7 +89,7 @@ export default function Home() {
       image: programsPageImages.find((img) => img.id === 'activity-Embrace'),
     },
     {
-      name: 'Preschool',
+      name: 'Graduation',
       age: '3 - 4 years',
       image: programsPageImages.find((img) => img.id === 'activity-arts'),
     },

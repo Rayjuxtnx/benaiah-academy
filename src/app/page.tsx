@@ -84,9 +84,9 @@ export default function Home() {
 
   const programs = [
     {
-      name: 'Toddler Program',
-      age: '18 months - 3 years',
-      image: programsPageImages.find((img) => img.id === 'activity-skating'),
+      name: 'Love Embrace Program',
+      age: 'The Love Embrace Programme is a heartfelt outreach initiative dedicated to bringing hope, joy, and encouragement to vulnerable children—especially orphans within our community. Through organized visits, our learners and staff come together to share their time, resources, and compassion with these young ones.',
+      image: programsPageImages.find((img) => img.id === 'activity-Embrace'),
     },
     {
       name: 'Preschool',

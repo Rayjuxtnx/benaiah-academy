@@ -90,8 +90,8 @@ export default function Home() {
     },
     {
       name: 'Graduation',
-      age: '3 - 4 years',
-      image: programsPageImages.find((img) => img.id === 'activity-arts'),
+      age: 'At this school, every role—whether in the classroom or behind the scenes—feels meaningful and valued It is more than just a workplace; it is a family united by a shared purpose: to create a safe, supportive, and inspiring environment where students and staff can thrive. We are proud to be part of a community that truly cares and works together to make a lasting difference.',
+      image: programsPageImages.find((img) => img.id === 'graduation-family'),
     },
     {
       name: 'Pre-Kindergarten',

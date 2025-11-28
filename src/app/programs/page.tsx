@@ -38,7 +38,7 @@ export default function ProgramsPage() {
     },
     {
       title: 'Celebrating Through Music',
-      description: 'Music and poetry allow learners to express their emotions, creativity, and identity in powerful ways. Through these arts, we build confidence, discipline, and teamwork, helping each child discover their unique voice. I am proud of the dedication our learners show, and their journey to the Nationals is proof of what passion and hard work can achieve. We will continue nurturing talent and celebrating the beauty of artistic expression.',
+      description: 'Music and poetry allow learners to express their emotions, creativity, and identity in powerful ways. Through these arts, we build confidence, discipline, and teamwork, helping each child discover their unique voice. I am proud of the dedication our learners show, and their journey to the Nationals is proof of what passion and hard work can achieve. We will continue nurturing talent and celebrating the beauty of artistic expression. -Cynthia Chirchir, Patron, Music & Poetry',
       icon: <Music className="h-8 w-8 text-primary" />,
       image: programImages.find((img) => img.id === 'activity-music'),
     },
@@ -56,19 +56,19 @@ export default function ProgramsPage() {
      },
      {
       title: 'Soccer' ,
-      description: 'football is more than a sport, its a pathway to discipline, determination and lifelong opportunity. At Pro Soccer, we focus on shaping players who are skilled on the field and strong in character, Every child deserve a chance to discover their talent, train with purpose and rise with confidence, i am honoured to guide this vision and help nurture the next generation of champion.',
+      description: 'football is more than a sport, its a pathway to discipline, determination and lifelong opportunity. At Pro Soccer, we focus on shaping players who are skilled on the field and strong in character, Every child deserve a chance to discover their talent, train with purpose and rise with confidence, i am honoured to guide this vision and help nurture the next generation of champion. — Gideon Ochieng, Patron',
       icon: <Users className="h-8 w-8 text-primary" />,
       image: programImages.find((img)  => img.id === 'activity-soccer'),
     },
     {
       title: 'Swimming' ,
-      description: 'Swimming teaches discipline, confidence, and resilience. In our program, every learner is encouraged to conquer their fears, develop strong skills, and enjoy the beauty of the sport. My mission is to ensure that every child feels supported, safe, and inspired as they grow in both ability and character.' ,
+      description: 'Swimming teaches discipline, confidence, and resilience. In our program, every learner is encouraged to conquer their fears, develop strong skills, and enjoy the beauty of the sport. My mission is to ensure that every child feels supported, safe, and inspired as they grow in both ability and character. — Lilian Nzisa, Swimming Patron' ,
       icon: <Users className="h-8 w-8 text-primary" />,
       image: programImages.find((img)  => img.id === 'activity-Swimming'),
     },
     {
       title: 'Debate' ,
-      description: 'Debate sharpens the mind, builds confidence, and empowers learners to express themselves with clarity and respect. Through every discussion and argument, we nurture critical thinkers who can analyze issues, communicate effectively, and lead with purpose. I am committed to guiding our learners as they grow into articulate, informed, and confident speakers..' ,
+      description: 'Debate sharpens the mind, builds confidence, and empowers learners to express themselves with clarity and respect. Through every discussion and argument, we nurture critical thinkers who can analyze issues, communicate effectively, and lead with purpose. I am committed to guiding our learners as they grow into articulate, informed, and confident speakers. -Cynthia Chirchir, Debate Patron' ,
       icon: <Award className="h-8 w-8 text-primary" />,
       image: programImages.find((img)  => img.id === 'activity-Debate'),
      },
@@ -80,7 +80,7 @@ export default function ProgramsPage() {
     },
     {  
       title: 'Skating' ,
-      description: 'Skating builds balance, courage, and creativity. It teaches learners to trust themselves, stay focused, and enjoy movement in a unique and exciting way. My goal is to guide every child to grow in confidence, master new skills, and discover the joy that skating brings..' ,
+      description: 'Skating builds balance, courage, and creativity. It teaches learners to trust themselves, stay focused, and enjoy movement in a unique and exciting way. My goal is to guide every child to grow in confidence, master new skills, and discover the joy that skating brings. Faith Muthiani, Skating Patron' ,
       icon: <Award className="h-8 w-8 text-primary" />,
       image: programImages.find((img)  => img.id === 'activity-Skating'),
     },

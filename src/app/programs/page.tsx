@@ -43,31 +43,25 @@ export default function ProgramsPage() {
       image: programImages.find((img) => img.id === 'activity-music'),
     },
     {
-      title: 'The Playground',
-      description: 'Our students regularly enjoy the playground, a vibrant space where they play, explore, and develop their physical skills while building lasting friendships.',
-      icon: <Wind className="h-8 w-8 text-primary" />,
-      image: programImages.find((img) => img.id === 'activity-playground'),
-    },
-    {
       title: 'Drama Festivals',
       description: 'We frequently participate in drama festivals, giving our students the chance to showcase their creativity, build confidence, and express themselves through captivating performances.',
       icon: <Users className="h-8 w-8 text-primary" />,
       image: programImages.find((img) => img.id === 'activity-drama'),
      },
      {
-      title: 'Soccer' ,
-      description: 'football is more than a sport, its a pathway to discipline, determination and lifelong opportunity. At Pro Soccer, we focus on shaping players who are skilled on the field and strong in character, Every child deserve a chance to discover their talent, train with purpose and rise with confidence, i am honoured to guide this vision and help nurture the next generation of champion. — Gideon Ochieng, Patron',
+      title: 'Soccer Club' ,
+      description: 'Benaiah Pro Soccer, at Machakos Civil Service ClubScore big with our Pro Soccer Club! Tailored for young aspiring footballers, this club focuses on developing soccer skills, teamwork, and sportsmanship. Beyond the physical benefits of improved agility and coordination, participating in the Pro Soccer Club will enhance your childs social skills and instill values of discipline and fair play.for the clubs, we are using this information. — Gideon Ochieng, Patron',
       icon: <Users className="h-8 w-8 text-primary" />,
       image: programImages.find((img)  => img.id === 'activity-soccer'),
     },
     {
-      title: 'Swimming' ,
-      description: 'Swimming teaches discipline, confidence, and resilience. In our program, every learner is encouraged to conquer their fears, develop strong skills, and enjoy the beauty of the sport. My mission is to ensure that every child feels supported, safe, and inspired as they grow in both ability and character. — Lilian Nzisa, Swimming Patron' ,
-      icon: <Users className="h-8 w-8 text-primary" />,
+      title: 'Swimming Club' ,
+      description: 'Benaiah Aqua Stars,at A&L Hotel MachakosDive into a world of aquatic fun and fitness with our Swimming Club! Designed to instill water confidence and safety, this club offers a unique opportunity for your child to develop essential swimming skills in a supportive and enjoyable environment. Benefits include improved physical fitness, enhanced coordination, and the promotion of a healthy and active lifestyle. — Lilian Nzisa, Swimming Patron' ,
+      icon: <Users className="h-8   w-8 text-primary" />,
       image: programImages.find((img)  => img.id === 'activity-Swimming'),
     },
     {
-      title: 'Debate' ,
+      title: 'Debate Club' ,
       description: 'Debate sharpens the mind, builds confidence, and empowers learners to express themselves with clarity and respect. Through every discussion and argument, we nurture critical thinkers who can analyze issues, communicate effectively, and lead with purpose. I am committed to guiding our learners as they grow into articulate, informed, and confident speakers. -Cynthia Chirchir, Debate Patron' ,
       icon: <Award className="h-8 w-8 text-primary" />,
       image: programImages.find((img)  => img.id === 'activity-Debate'),
@@ -79,8 +73,8 @@ export default function ProgramsPage() {
       image: programImages.find((img)  => img.id === 'activity-Embrace'),
     },
     {  
-      title: 'Skating' ,
-      description: 'Skating builds balance, courage, and creativity. It teaches learners to trust themselves, stay focused, and enjoy movement in a unique and exciting way. My goal is to guide every child to grow in confidence, master new skills, and discover the joy that skating brings. Faith Muthiani, Skating Patron' ,
+      title: 'Skating Club' ,
+      description: 'The Benaiah Skaters,at Mks Peoples ParkGlide into excitement with our Skating Club! This club is crafted to teach fundamental skating techniques while promoting balance, coordination, and spatial awareness. Your child will experience the joy of movement, building confidence and resilience through the challenges of skating. Additionally, this club fosters a sense of camaraderie among participants, creating lasting friendships. Faith Muthiani, Skating Patron' ,
       icon: <Award className="h-8 w-8 text-primary" />,
       image: programImages.find((img)  => img.id === 'activity-Skating'),
     },
@@ -108,7 +102,7 @@ export default function ProgramsPage() {
         <div className="container px-4 md:px-6 relative">
           <div className="mx-auto max-w-3xl space-y-2 py-12 md:py-24 lg:py-32">
             <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-primary-foreground">
-              Our Programs
+              Our Academic Programs
             </h1>
             <p className="text-primary-foreground/90 md:text-xl/relaxed">
              Our Fun Programs are thoughtfully designed to spark imagination, nurture social development, and promote active learning through engaging, age-appropriate activities—ensuring every kindergarten child experiences joy, discovery, and growth in a safe and stimulating environment.

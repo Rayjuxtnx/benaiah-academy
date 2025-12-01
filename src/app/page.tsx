@@ -89,14 +89,14 @@ export default function Home() {
       image: programsPageImages.find((img) => img.id === 'activity-Embrace'),
     },
     {
-      name: 'Graduations',
-      age: 'At this school, every role—whether in the classroom or behind the scenes—feels meaningful and valued It is more than just a workplace; it is a family united by a shared purpose: to create a safe, supportive, and inspiring environment where students and staff can thrive. We are proud to be part of a community that truly cares and works together to make a lasting difference.',
-      image: journeyPageImages.find((img) => img.id === 'graduation-family'),
+      name: 'Debate',
+      age: 'Debate sharpens the mind, builds confidence, and empowers learners to express themselves with clarity and respect.',
+      image:  programsPageImages.find((img) => img.id === 'activity-Debate'),
     },
     {
-      name: 'Extra miles',
-      age: 'We are devoted to nurturing learners not just academically, but also in character and purpose—preparing them to rise and stand out in every area of life. At Benaiah Academy, every child is equipped to lead, conquer, and inspire.',
-      image: journeyPageImages.find((img) => img.id === 'academic-social'),
+      name: 'soccer',
+      age: 'football is more than a sport, its a pathway to discipline, determination and lifelong opportunity. At Pro Soccer, we focus on shaping players who are skilled on the field and strong in character, Every child deserve a chance to discover their talent.',
+      image: programsPageImages.find((img) => img.id === 'activity-soccer'),
     },
   ];
 
@@ -122,14 +122,15 @@ export default function Home() {
                 Benaiah Academy
               </h1>
               <p className="text-lg md:text-xl">
-                "A special place for every child to learn and grow."
+                "We believe that every child is uniquely gifted, and it is our joy to help them discover and develop their individual potential. Our mission is to provide a holistic education that blends academic excellence with character development and life skills.
+"
               </p>
               <p className="text-lg md:text-xl italic">
-                Benaiah is a symbol of strength, courage and tenacity...such is the generation of champs we aspire to bring forth.
+                We use the Montessori Method of teaching to deliver the Competency-Based Education (CBE) at the Preparatory and Primary levels .Our learner-centered approach focuses on physical, social, emotional, and cognitive growth — building confident, independent, and solution-oriented young learners.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
                 <Button asChild size="lg" className="transition-transform hover:scale-105">
-                  <Link href="/programs">Our Programs</Link>
+                  <Link href="/programs">Our Academic Program</Link>
                 </Button>
                 <Button
                   asChild
@@ -250,7 +251,8 @@ export default function Home() {
               Join the Benaiah Academy Family
             </h2>
             <p className="text-lg text-white">
-              Welcome to Benaiah Academy—where every child's journey begins with purpose and hope. Ready to give your child an unforgettable start? Schedule a tour or contact us to learn more about our enrollment process.
+              We take pride in offering a conducive learning environment that fosters excellence in both academic and co-curricular pursuits. English is our main language of communication, helping learners express themselves confidently both in and out of school.
+              Our dedicated teachers and support staff are fully committed to walking each learner’s educational journey with care and excellence. Beyond academics, we equip learners with essential life skills through programs such as swimming, skating, music, pro soccer, poetry, dance, Girl Guides, Scouts, and more.
             </p>
             <Button
               asChild

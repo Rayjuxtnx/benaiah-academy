@@ -50,7 +50,7 @@ export default function ProgramsPage() {
      },
      {
       title: 'Soccer Club' ,
-      description: 'football is more than a sport, its a pathway to discipline, determination and lifelong opportunity. At Pro Soccer, we focus on shaping players who are skilled on the field and strong in character, Every child deserve a chance to discover their talent, train with purpose and rise with confidence, i am honoured to guide this vision and help nurture the next generation of champion. — Gideon Ochieng, Patron',
+      description: 'Football is more than a sport, its a pathway to discipline, determination and lifelong opportunity. At Pro Soccer, we focus on shaping players who are skilled on the field and strong in character, Every child deserve a chance to discover their talent, train with purpose and rise with confidence, i am honoured to guide this vision and help nurture the next generation of champion. — Gideon Ochieng, Patron',
       icon: <Users className="h-8 w-8 text-primary" />,
       image: programImages.find((img)  => img.id === 'activity-soccer'),
     },

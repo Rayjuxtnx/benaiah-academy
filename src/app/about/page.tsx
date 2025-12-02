@@ -186,7 +186,7 @@ export default function AboutPage() {
             <Card className="text-center">
               <CardContent className="flex flex-col items-center p-6">
                  {headTeacherImg && (
-                  <Avatar className="h-24 w-24 mb-4">
+                  <Avatar className="h-50 w-60 mb-4">
                     <AvatarImage src={headTeacherImg.imageUrl} alt={'Headteacher'} data-ai-hint={headTeacherImg.imageHint}/>
                     <AvatarFallback>TG</AvatarFallback>
                   </Avatar>
@@ -199,7 +199,7 @@ export default function AboutPage() {
             <Card className="text-center">
               <CardContent className="flex flex-col items-center p-6">
                 {teachingStaffImg && (
-                  <Avatar className="h-24 w-24 mb-4">
+                  <Avatar className="h-50 w-60 mb-4">
                     <AvatarImage src={teachingStaffImg.imageUrl} alt={'Teaching Staff'} data-ai-hint={teachingStaffImg.imageHint}/>
                     <AvatarFallback>TS</AvatarFallback>
                   </Avatar>
@@ -211,7 +211,7 @@ export default function AboutPage() {
             <Card className="text-center">
               <CardContent className="flex flex-col items-center p-6">
                  {nonTeachingStaffImg && (
-                  <Avatar className="h-24 w-24 mb-4">
+                  <Avatar className="h-50 w-60 mb-4">
                     <AvatarImage src={nonTeachingStaffImg.imageUrl} alt={'Non-Teaching Staff'} data-ai-hint={nonTeachingStaffImg.imageHint}/>
                     <AvatarFallback>NTS</AvatarFallback>
                   </Avatar>

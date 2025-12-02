@@ -99,7 +99,7 @@ export default function ProgramsPage() {
               Our Academic Programs
             </h1>
             <p className="text-primary-foreground/90 md:text-xl/relaxed">
-             Our Fun Programs are thoughtfully designed to spark imagination, nurture social development, and promote active learning through engaging, age-appropriate activities—ensuring every kindergarten child experiences joy, discovery, and growth in a safe and stimulating environment.
+             Our Academic Programs are thoughtfully designed to spark imagination, nurture social development, and promote active learning through engaging, age-appropriate activities—ensuring every kindergarten child experiences joy, discovery, and growth in a safe and stimulating environment.
             </p>
           </div>
         </div>

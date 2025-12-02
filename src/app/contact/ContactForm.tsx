@@ -41,7 +41,7 @@ export default function ContactForm() {
 
   async function onSubmit(values: FormData) {
     try {
-      const response = await fetch('https://formspree.io/f/myzvaglw', {
+      const response = await fetch('https://formspree.io/f/mgvgynqj', {
         method: 'POST',
         headers: {
           'Accept': 'application/json'

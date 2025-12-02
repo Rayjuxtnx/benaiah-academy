@@ -138,7 +138,7 @@ export default function OurJourneyPage() {
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-3xl space-y-2">
             <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-              Our Journey
+              Our Academic Journey
             </h1>
             <p className="text-muted-foreground md:text-xl/relaxed">
               Explore the milestones and experiences that shape our students'

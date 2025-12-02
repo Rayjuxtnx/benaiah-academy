@@ -122,11 +122,9 @@ export default function Home() {
                 Benaiah Academy
               </h1>
               <p className="text-lg md:text-xl">
-                "We believe that every child is uniquely gifted, and it is our joy to help them discover and develop their individual potential. Our mission is to provide a holistic education that blends academic excellence with character development and life skills.
-"
+                "At Benaiah Academy, we believe every child is uniquely gifted, and we are committed to helping them discover and grow their individual potential. We provide a holistic education that blends academic excellence, character development, and essential life skills.We use the Montessori Method to deliver Competency-Based Education (CBE) at the Preparatory and Primary levels. Our learner-centered approach supports physical, social, emotional, and cognitive development, nurturing confident, independent, and solution-oriented young learners.."
               </p>
               <p className="text-lg md:text-xl italic">
-                We use the Montessori Method of teaching to deliver the Competency-Based Education (CBE) at the Preparatory and Primary levels .Our learner-centered approach focuses on physical, social, emotional, and cognitive growth — building confident, independent, and solution-oriented young learners.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
                 <Button asChild size="lg" className="transition-transform hover:scale-105">
@@ -163,7 +161,7 @@ export default function Home() {
               Welcome to Our School
             </h2>
             <p className="text-muted-foreground md:text-xl/relaxed">
-              Benaiah Academy is a Christ-centered kindergarten dedicated to providing a nurturing environment where children can grow spiritually, academically, socially, and physically. Located in the heart of Machakos, we offer quality early childhood education with a focus on Christian values and holistic development.
+              Benaiah Academy is a Christ-centered academy dedicated to providing a nurturing environment where children can grow spiritually, academically, socially, and physically. Located in the heart of Machakos, we offer quality early childhood education with a focus on Christian values and holistic development.
             </p>
           </div>
         </div>
@@ -174,7 +172,7 @@ export default function Home() {
        <section id="programs-overview" className="bg-card">
         <div className="container px-4 md:px-6">
           <div className="text-center space-y-4">
-            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">Our Programs</h2>
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">Our Academic Programs</h2>
             <p className="max-w-2xl mx-auto text-muted-foreground md:text-lg">
               We offer a range of programs tailored to different age groups, each designed to foster growth and curiosity in a supportive setting.
             </p>

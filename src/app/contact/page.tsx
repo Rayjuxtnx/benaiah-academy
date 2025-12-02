@@ -58,7 +58,7 @@ export default function ContactPage() {
                         benaiahkindergarten@gmail.com
                       </a>
                        <a href="mailto:admissions@benaiah.ac.ke" className="block text-primary hover:text-primary/80">
-                        admissions@benaiah.ac.ke
+                        knathan2003@gmail.com
                       </a>
                       <p className="text-sm text-muted-foreground">We reply within 24 hours</p>
                     </div>

@@ -51,7 +51,7 @@ export function AnimatedMissionVision() {
             <Star className="h-12 w-12 text-primary" />
             <h3 className="font-headline text-2xl font-bold">Our Vision</h3>
             <p className="text-muted-foreground">
-              To be the leading Christian kindergarten in Machakos County, recognized for developing well-rounded children who excel in character, learning, and service to God and community.
+              To be the leading Christian academy in Machakos County, recognized for developing well-rounded children who excel in character, learning, and service to God and community.
             </p>
           </div>
         </div>

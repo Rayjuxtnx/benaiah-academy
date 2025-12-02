@@ -191,7 +191,7 @@ export default function AboutPage() {
                     <AvatarFallback>TG</AvatarFallback>
                   </Avatar>
                 )}
-                <h3 className="font-headline text-xl font-bold">Tr. Gedion</h3>
+                <h3 className="font-headline text-xl font-bold"></h3>
                 <p className="text-primary">Headteacher</p>
                 <p className="mt-2 text-sm text-muted-foreground">"Your passion and dedication inspire our learners daily. Benaiah Academy is proud to have you as a model of excellence in education."</p>
               </CardContent>

@@ -20,21 +20,21 @@ import { Button } from '@/components/ui/button';
 const testimonials = [
   {
     name: 'Jennifer K.',
-    role: 'Parent (Pre-K)',
+    role: 'Parent',
     avatar: 'JK',
     text: 'Benaiah Academy has been a blessing for our family. The teachers are so attentive and creative - my daughter comes home every day excited to share what she learned!',
     rating: 5,
   },
   {
     name: 'Marcus D.',
-    role: 'Parent (Kindergarten)',
+    role: 'Parent',
     avatar: 'MD',
     text: 'As an educator myself, I\'m consistently impressed with the thoughtful curriculum and emphasis on social-emotional development. The staff truly understands early childhood.',
     rating: 5,
   },
   {
     name: 'John S.',
-    role: 'Parent (Toddler Program)',
+    role: 'Parent',
     avatar: 'JS',
     text: 'The communication from the school is excellent, and I always feel welcome when I visit. My son has blossomed here in just a few months - he\'s more confident and curious!',
     rating: 5,

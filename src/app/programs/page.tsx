@@ -21,19 +21,19 @@ export default function ProgramsPage() {
     {
       title: 'Arts and Crafts',
       description: 'Face painting at Benaiah Academy adds a splash of color and joy, sparking creativity and fun in every child\'s experience.',
-      icon: <Paintbrush className="h-8 w-8 text-primary" />,
+      icon: <Paintbrush className="h-4 w-4 text-primary" />,
       image: programImages.find((img) => img.id === 'activity-arts'),
     },
     {
       title: 'Field Trips',
       description: 'Our regular visits to the National Orphanage help instill empathy, kindness, and a strong sense of social responsibility in our learners.',
-      icon: <Bus className="h-8 w-8 text-primary" />,
+      icon: <Bus className="h-4 w-8 text-primary" />,
       image: programImages.find((img) => img.id === 'activity-trips'),
     },
     {
       title: 'Connecting with Nature',
       description: 'Our frequent outdoor activities immerse students in the beauty of the natural world, fostering curiosity, environmental awareness, and a lifelong love for nature.',
-      icon: <Leaf className="h-8 w-8 text-primary" />,
+      icon: <Leaf className="h-4 w-8 text-primary" />,
       image: programImages.find((img) => img.id === 'activity-nature'),
     },
     {

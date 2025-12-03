@@ -122,7 +122,7 @@ export default function Home() {
                 Benaiah Academy
               </h1>
               <p className="text-lg md:text-xl">
-                "At Benaiah Academy, we believe every child is uniquely gifted, and we are committed to helping them discover and grow their individual potential. We provide a holistic education that blends academic excellence, character development, and essential life skills.We use the Montessori Method to deliver Competency-Based Education (CBE) at the Preparatory and Primary levels. Our learner-centered approach supports physical, social, emotional, and cognitive development, nurturing confident, independent, and solution-oriented young learners.."
+                "At Benaiah Academy, we believe every child is uniquely gifted, and we are committed to helping them discover and grow their individual potential. We provide a holistic education that blends academic excellence, character development, and essential life skills."
               </p>
               <p className="text-lg md:text-xl italic">
               </p>

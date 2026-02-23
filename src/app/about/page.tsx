@@ -33,8 +33,8 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: 'John S.',
-    role: 'Parent',
+    name: 'John s.',
+    role: 'Parents',
     avatar: 'JS',
     text: 'The communication from the school is excellent, and I always feel welcome when I visit. My son has blossomed here in just a few months - he\'s more confident and curious!',
     rating: 5,
